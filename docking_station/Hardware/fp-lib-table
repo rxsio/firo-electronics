@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "firo_footprints")(type "KiCad")(uri "C:/Users/asiadel/Documents/firo-electronics/footprints/firo_footprints.pretty")(options "")(descr ""))
+)
