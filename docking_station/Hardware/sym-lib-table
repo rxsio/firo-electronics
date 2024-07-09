@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "FIRO_collected")(type "KiCad")(uri "C:/Users/asiadel/Documents/firo-electronics/symbols/FIRO_collected.kicad_sym")(options "")(descr ""))
+  (lib (name "FIRO_collected")(type "KiCad")(uri "../../symbols/FIRO_collected.kicad_sym")(options "")(descr ""))
 )
