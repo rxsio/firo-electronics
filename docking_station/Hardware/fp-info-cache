@@ -1,4 +1,4 @@
-23339729705703690
+23341450660950803
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95339,6 +95339,13 @@ Varistor VF
 0
 2
 2
+firo_footprints
+BOURNS_3313J-1_SMD
+
+
+0
+0
+0
 firo_footprints
 PowerPAK_SO-8DC for VISHAY SIDR392DP-T1-GE3
 PowerPAK SO-8 Single (https://www.vishay.com/docs/71655/powerpak.pdf, https://www.vishay.com/docs/72599/72599.pdf)
