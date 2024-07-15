@@ -691,134 +691,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint_2Pole"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_2Pole_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -4895,6 +4767,12 @@
 		(uuid "559f769b-153c-488d-bf6c-428ffad1fa23")
 	)
 	(junction
+		(at 31.75 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57bea42f-212a-43d8-8a51-054904248931")
+	)
+	(junction
 		(at 153.67 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4913,12 +4791,6 @@
 		(uuid "6e018955-113c-45a5-ae77-691333df4b15")
 	)
 	(junction
-		(at 33.02 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ebce2b0-de36-4a97-95a4-3f5103bb2429")
-	)
-	(junction
 		(at 158.75 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4929,12 +4801,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c74e958-efea-4042-9ae6-0e126fa45389")
-	)
-	(junction
-		(at 33.02 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e7b3c57-0609-4115-bda7-0574b1d2b46f")
 	)
 	(junction
 		(at 246.38 71.12)
@@ -5067,6 +4933,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebad49e4-8bbf-4ec2-a0c8-213112b752b5")
+	)
+	(junction
+		(at 31.75 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f23c8037-1c7c-40f6-9205-3af0cee02982")
 	)
 	(wire
 		(pts
@@ -5480,7 +5352,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 137.16) (xy 33.02 137.16)
+			(xy 29.21 137.16) (xy 31.75 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5540,7 +5412,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 127) (xy 33.02 127)
+			(xy 29.21 127) (xy 31.75 127)
 		)
 		(stroke
 			(width 0)
@@ -5627,26 +5499,6 @@
 			(type default)
 		)
 		(uuid "5a9d2ef5-0e5f-41b3-a52c-3f582513532a")
-	)
-	(wire
-		(pts
-			(xy 33.02 137.16) (xy 34.29 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4dfba7-d38e-4fe1-a1bd-ffd396db681c")
-	)
-	(wire
-		(pts
-			(xy 33.02 127) (xy 34.29 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cefb6f6-d831-43a5-a826-5606fb9ff106")
 	)
 	(wire
 		(pts
@@ -6400,6 +6252,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 137.16) (xy 34.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30c3e55-f719-478d-b21c-601bd1586249")
+	)
+	(wire
+		(pts
 			(xy 246.38 71.12) (xy 236.22 71.12)
 		)
 		(stroke
@@ -6447,6 +6309,16 @@
 			(type default)
 		)
 		(uuid "c88cdbf4-a498-4b03-a4d7-62cae9c837c0")
+	)
+	(wire
+		(pts
+			(xy 31.75 127) (xy 34.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbcf429-2c9a-4b14-afd8-d11e49db0c08")
 	)
 	(wire
 		(pts
@@ -9913,7 +9785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "firo_footprints:firo_fuse"
 			(at 49.53 46.228 90)
 			(effects
 				(font
@@ -10015,6 +9887,73 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c70a00f-7a65-495a-bfc4-85f38c182e67")
+		(property "Reference" "TP23"
+			(at 25.654 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 28.194 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch3.81mm_Drill1.3mm"
+			(at 26.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02205c35-711c-4ec4-a864-5d5c92460b95")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -11959,77 +11898,6 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 33.02 132.08 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a1ee968-da59-407a-b596-e28de4055158")
-		(property "Reference" "TP23"
-			(at 31.496 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 30.48 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 33.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d70869a-27ab-430d-9660-903f714a8432")
-		)
-		(pin "1"
-			(uuid "13143875-9de0-449b-a573-ca96f6108e72")
-		)
-		(instances
-			(project "docking_station"
-				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -14010,6 +13878,73 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be9f3698-113b-43c6-b96a-359969f9b6fa")
+		(property "Reference" "TP26"
+			(at 30.734 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.306 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch3.81mm_Drill1.3mm"
+			(at 36.83 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e87fab52-6c49-4665-88ac-634a98fe0c0e")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
