@@ -1,4 +1,4 @@
-23648959263623594
+23652400890270453
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96586,6 +96586,13 @@ Varistor VF
 2
 2
 firo_footprints
+14 AWG soldering pad
+
+
+0
+1
+1
+firo_footprints
 BOURNS_3313J-1_SMD
 
 
@@ -96614,9 +96621,16 @@ Integrated Circuit
 4
 4
 firo_footprints
+Wago_01x08_3,5mm
+
+
+0
+16
+8
+firo_footprints
 firo_fuse
 
 
 0
-0
-0
+2
+2
