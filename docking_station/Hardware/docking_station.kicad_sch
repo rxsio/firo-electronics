@@ -4562,126 +4562,6 @@
 				)
 			)
 		)
-		(symbol "power:VDC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 44.45 44.45)
@@ -4918,6 +4798,12 @@
 		(uuid "e413f223-c383-4936-b2cc-e0ecdd59e9db")
 	)
 	(junction
+		(at 44.45 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e81d987b-286b-4949-8de9-cd633502f9c9")
+	)
+	(junction
 		(at 97.79 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5030,6 +4916,16 @@
 			(type default)
 		)
 		(uuid "13df1e40-e427-488a-9a40-d7f3459fe4bc")
+	)
+	(wire
+		(pts
+			(xy 43.18 49.53) (xy 44.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1489ee7f-06fc-4792-b121-2567acd73470")
 	)
 	(wire
 		(pts
@@ -5613,6 +5509,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 62.23) (xy 44.45 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675d7ea0-a50e-4dc5-aaac-4532acffafb6")
+	)
+	(wire
+		(pts
 			(xy 237.49 68.58) (xy 237.49 64.77)
 		)
 		(stroke
@@ -5873,7 +5779,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 62.23) (xy 54.61 62.23)
+			(xy 43.18 62.23) (xy 44.45 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6133,6 +6039,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 67.31) (xy 43.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae05ebe1-3aab-49cb-91dd-877e77d09171")
+	)
+	(wire
+		(pts
 			(xy 129.54 71.12) (xy 130.81 71.12)
 		)
 		(stroke
@@ -6343,6 +6259,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 62.23) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d179efeb-1675-4388-bac6-6ac2a9d4aa8d")
+	)
+	(wire
+		(pts
 			(xy 246.38 71.12) (xy 246.38 69.85)
 		)
 		(stroke
@@ -6430,6 +6356,16 @@
 			(type default)
 		)
 		(uuid "d9a4ef52-b6df-4bfb-8da0-554d81010ce5")
+	)
+	(wire
+		(pts
+			(xy 44.45 49.53) (xy 44.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da669c7f-7360-4aeb-a813-d6db95cc1f04")
 	)
 	(wire
 		(pts
@@ -7440,6 +7376,17 @@
 		)
 		(uuid "295564f3-e691-46fe-8b17-de7576b1efa0")
 	)
+	(label "CS_2"
+		(at 158.75 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29d75fcb-d1fc-4cf3-9aff-363cc6d5654e")
+	)
 	(label "LINE_A"
 		(at 261.62 102.87 180)
 		(fields_autoplaced yes)
@@ -7450,6 +7397,17 @@
 			(justify right bottom)
 		)
 		(uuid "2b12d769-8058-4b61-a7dd-365dbff43a28")
+	)
+	(label "CS_3"
+		(at 238.76 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "351168f6-84b2-40ca-8b35-a8d8cbb4c28b")
 	)
 	(label "AMP_OUT"
 		(at 78.74 134.62 0)
@@ -7505,6 +7463,17 @@
 			(justify left bottom)
 		)
 		(uuid "5166264b-5cb4-4f49-bf62-5cfbe3e94eba")
+	)
+	(label "CS_4"
+		(at 238.76 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ec63e42-3a78-49ba-9418-0732ea32d6e6")
 	)
 	(label "AMP_OUT"
 		(at 113.03 175.26 0)
@@ -7593,6 +7562,17 @@
 			(justify right bottom)
 		)
 		(uuid "b082b691-2ee1-4b77-b805-471a88ef9e62")
+	)
+	(label "CS_1"
+		(at 158.75 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e46fed54-6904-4091-962b-810a0dc00321")
 	)
 	(label "LINE_B"
 		(at 232.41 120.65 180)
@@ -9047,6 +9027,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 166.37 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29ac1d52-991b-453e-9f86-7ed15aee8aca")
+		(property "Reference" "#PWR07"
+			(at 166.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 166.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 166.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e60eff85-82f3-4600-9a43-ffe32cd67d74")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 208.28 39.37 270)
 		(unit 1)
@@ -10310,17 +10356,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 166.37 29.21 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 38.1 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "421391a8-63f2-4757-a0d9-1caa1bb8987c")
-		(property "Reference" "#PWR07"
-			(at 166.37 33.02 0)
+		(uuid "43fd46cf-50f3-4e5a-bf33-6944ff8d74eb")
+		(property "Reference" "J4"
+			(at 34.036 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SUPPLY+"
+			(at 34.036 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "firo_footprints:14 AWG soldering pad"
+			(at 38.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,16 +10389,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDC"
-			(at 166.37 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 29.21 0)
+		(property "Datasheet" "~"
+			(at 38.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,17 +10398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 166.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 166.37 29.21 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 38.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,12 +10408,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3135f07-3759-459c-b1d4-1f5dd95125f6")
+			(uuid "b163a932-43e3-4dbc-9efb-727d36e92f55")
 		)
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "#PWR07")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13888,72 +13932,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 246.38 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beb757f0-191e-4bd4-a228-325fac4500a5")
-		(property "Reference" "#PWR08"
-			(at 246.38 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 246.38 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 246.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb3c2132-8517-43a8-a73a-d7918e6cc92e")
-		)
-		(instances
-			(project "docking_station"
-				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 102.87 143.51 0)
 		(unit 1)
@@ -14222,6 +14200,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 38.1 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3fc7da9-d4ff-45af-9d86-c4b43005111d")
+		(property "Reference" "J7"
+			(at 33.782 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SUPPLY-"
+			(at 33.782 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "firo_footprints:14 AWG soldering pad"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53c3391a-f6c1-4e3b-a27c-099eecafea51")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 243.84 48.26 0)
@@ -14430,6 +14472,72 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 246.38 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca879c03-97c2-495a-b894-3eb65f69d451")
+		(property "Reference" "#PWR08"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 246.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 246.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6f77652-7f90-4e02-9dd2-de4b4f179b0f")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
