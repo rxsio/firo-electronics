@@ -4934,12 +4934,6 @@
 		(uuid "559f769b-153c-488d-bf6c-428ffad1fa23")
 	)
 	(junction
-		(at 31.75 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57bea42f-212a-43d8-8a51-054904248931")
-	)
-	(junction
 		(at 157.48 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5018,12 +5012,6 @@
 		(uuid "b60f85e8-eff8-4f08-aa16-20a3af1fdeff")
 	)
 	(junction
-		(at 63.5 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc2d3ed8-c9c2-4f7f-9810-43fc8db82b25")
-	)
-	(junction
 		(at 246.38 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5084,12 +5072,6 @@
 		(uuid "e81d987b-286b-4949-8de9-cd633502f9c9")
 	)
 	(junction
-		(at 97.79 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8d99724-6733-4ca0-a561-24af21f0cb30")
-	)
-	(junction
 		(at 102.87 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5100,12 +5082,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebad49e4-8bbf-4ec2-a0c8-213112b752b5")
-	)
-	(junction
-		(at 31.75 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f23c8037-1c7c-40f6-9205-3af0cee02982")
 	)
 	(wire
 		(pts
@@ -5196,16 +5172,6 @@
 			(type default)
 		)
 		(uuid "13df1e40-e427-488a-9a40-d7f3459fe4bc")
-	)
-	(wire
-		(pts
-			(xy 43.18 49.53) (xy 44.45 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1489ee7f-06fc-4792-b121-2567acd73470")
 	)
 	(wire
 		(pts
@@ -5529,16 +5495,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 137.16) (xy 31.75 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b28ace-f35b-441c-acc2-713a4a483271")
-	)
-	(wire
-		(pts
 			(xy 45.72 118.11) (xy 44.45 118.11)
 		)
 		(stroke
@@ -5586,16 +5542,6 @@
 			(type default)
 		)
 		(uuid "471e004f-afb8-4b6f-8c9c-4a5f51fa55e5")
-	)
-	(wire
-		(pts
-			(xy 29.21 127) (xy 31.75 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c6350f-2f02-47d7-a018-e75aba2ba8eb")
 	)
 	(wire
 		(pts
@@ -5659,7 +5605,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 177.8) (xy 156.21 177.8)
+			(xy 146.05 177.8) (xy 156.21 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6449,7 +6395,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 137.16) (xy 34.29 137.16)
+			(xy 146.05 175.26) (xy 156.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c10265-d5b7-4b47-887d-0acc92660fdc")
+	)
+	(wire
+		(pts
+			(xy 29.21 137.16) (xy 34.29 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6509,7 +6465,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 127) (xy 34.29 127)
+			(xy 29.21 127) (xy 34.29 127)
 		)
 		(stroke
 			(width 0)
@@ -6636,16 +6592,6 @@
 			(type default)
 		)
 		(uuid "d9a4ef52-b6df-4bfb-8da0-554d81010ce5")
-	)
-	(wire
-		(pts
-			(xy 44.45 49.53) (xy 44.45 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da669c7f-7360-4aeb-a813-d6db95cc1f04")
 	)
 	(wire
 		(pts
@@ -6866,16 +6812,6 @@
 			(type default)
 		)
 		(uuid "f2b229b8-320d-4832-a726-3d1ccf8adf00")
-	)
-	(wire
-		(pts
-			(xy 144.78 175.26) (xy 156.21 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2b30250-94a5-4265-8797-7e171d0b18c1")
 	)
 	(wire
 		(pts
@@ -8093,7 +8029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05b2e8df-d5bf-4a50-a15e-1cb2d32db48a")
-		(property "Reference" "TP21"
+		(property "Reference" "GND2"
 			(at 49.276 165.608 0)
 			(effects
 				(font
@@ -8145,7 +8081,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP21")
+					(reference "GND2")
 					(unit 1)
 				)
 			)
@@ -8301,7 +8237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eeb0671-9534-46ba-8c4c-806d3355b76b")
-		(property "Reference" "TP12"
+		(property "Reference" "CG2"
 			(at 156.972 59.69 0)
 			(effects
 				(font
@@ -8353,7 +8289,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP12")
+					(reference "CG2")
 					(unit 1)
 				)
 			)
@@ -8487,7 +8423,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 123.19 88.9 0)
+		(at 113.03 96.52 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8496,7 +8432,7 @@
 		(fields_autoplaced yes)
 		(uuid "1641f7d2-3aaa-40c2-98bc-5c1a1d687efe")
 		(property "Reference" "H3"
-			(at 125.73 86.3599 0)
+			(at 115.57 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +8441,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 125.73 88.8999 0)
+			(at 115.57 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,7 +8451,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 123.19 88.9 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,7 +8460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 88.9 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +8469,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 123.19 88.9 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,7 +8775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f84c334-fb83-4bf5-8db9-b510c3f56552")
-		(property "Reference" "TP16"
+		(property "Reference" "CS2"
 			(at 176.276 71.12 90)
 			(effects
 				(font
@@ -8891,7 +8827,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP16")
+					(reference "CS2")
 					(unit 1)
 				)
 			)
@@ -9109,6 +9045,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 135.89 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2293483a-b91d-4244-aef4-9a634a6054db")
+		(property "Reference" "H5"
+			(at 138.43 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 138.43 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e6d9eee-936b-400e-8c45-097d2b84474c")
+		)
+		(instances
+			(project ""
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 147.32 123.19 0)
 		(unit 1)
@@ -9247,7 +9251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "264806a8-d26c-42c0-bc82-eaa072c62915")
-		(property "Reference" "TP17"
+		(property "Reference" "CS3"
 			(at 256.032 41.91 90)
 			(effects
 				(font
@@ -9299,7 +9303,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP17")
+					(reference "CS3")
 					(unit 1)
 				)
 			)
@@ -9314,7 +9318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "290afa7e-aee8-4b34-83a2-76e210046bed")
-		(property "Reference" "TP8"
+		(property "Reference" "TP7"
 			(at 142.748 126.238 0)
 			(effects
 				(font
@@ -9366,7 +9370,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9381,8 +9385,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "294dfe63-7efb-4877-8666-47ec6b823620")
-		(property "Reference" "TP9"
-			(at 170.942 140.462 0)
+		(property "Reference" "TP8"
+			(at 169.926 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,7 +9437,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP9")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -9840,8 +9844,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34d38431-2d04-4092-9a01-92232429180b")
-		(property "Reference" "TP4"
-			(at 41.402 188.722 0)
+		(property "Reference" "TP5"
+			(at 41.402 188.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +9896,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9907,7 +9911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "353b217d-36fe-4446-a7ad-1bffc27dde55")
-		(property "Reference" "TP22"
+		(property "Reference" "GND3"
 			(at 55.626 165.608 0)
 			(effects
 				(font
@@ -9959,7 +9963,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP22")
+					(reference "GND3")
 					(unit 1)
 				)
 			)
@@ -10165,73 +10169,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 63.5 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3801581f-29ce-419a-848f-ef141ad7a650")
-		(property "Reference" "TP5"
-			(at 65.786 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 67.056 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 68.58 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 63.5 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd00b7b9-7e42-4463-bbcc-2c0fdfb04de6")
-		)
-		(instances
-			(project "docking_station"
-				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 49.53 44.45 90)
 		(unit 1)
@@ -10358,73 +10295,6 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 31.75 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c70a00f-7a65-495a-bfc4-85f38c182e67")
-		(property "Reference" "TP23"
-			(at 25.654 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 28.194 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 26.67 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 31.75 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02205c35-711c-4ec4-a864-5d5c92460b95")
-		)
-		(instances
-			(project "docking_station"
-				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -10637,7 +10507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40cf9a51-b391-4877-a4c2-bd6031ba5862")
-		(property "Reference" "TP13"
+		(property "Reference" "CG3"
 			(at 237.49 30.226 0)
 			(effects
 				(font
@@ -10689,7 +10559,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP13")
+					(reference "CG3")
 					(unit 1)
 				)
 			)
@@ -10763,70 +10633,6 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 38.1 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43fd46cf-50f3-4e5a-bf33-6944ff8d74eb")
-		(property "Reference" "J4"
-			(at 34.036 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SUPPLY+"
-			(at 34.036 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "firo_footprints:14 AWG soldering pad"
-			(at 38.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 38.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b163a932-43e3-4dbc-9efb-727d36e92f55")
-		)
-		(instances
-			(project "docking_station"
-				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10914,7 +10720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4933d94b-83bf-4444-9af5-6dc678308106")
-		(property "Reference" "TP7"
+		(property "Reference" "TP6"
 			(at 115.062 137.922 0)
 			(effects
 				(font
@@ -10966,7 +10772,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP7")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11318,6 +11124,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 153.67 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "562a8c16-c3fa-4a14-b061-41b0b7d4a6e3")
+		(property "Reference" "H7"
+			(at 156.21 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 156.21 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 153.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 153.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4aa734f-2e91-42b6-a4a4-86b0494c058b")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 109.22 0)
 		(unit 1)
@@ -11460,7 +11334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 91.44 0)
+		(at 104.14 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11469,7 +11343,7 @@
 		(fields_autoplaced yes)
 		(uuid "588754c3-ad85-4463-b7c9-801b314bae80")
 		(property "Reference" "#PWR039"
-			(at 114.3 97.79 0)
+			(at 104.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 96.52 0)
+			(at 104.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,7 +11360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 91.44 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,7 +11369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 91.44 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +11378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 91.44 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12220,35 +12094,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 144.78 177.8 180)
+		(lib_id "power:GND")
+		(at 135.89 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "75917d69-8912-4606-904f-ce62b0195c12")
-		(property "Reference" "TP25"
-			(at 142.494 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 141.224 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 139.7 177.8 0)
+		(fields_autoplaced yes)
+		(uuid "78e1f5d4-862b-469f-a05b-b8d285e58ec5")
+		(property "Reference" "#PWR043"
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,8 +12112,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 139.7 177.8 0)
+		(property "Value" "GND"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,8 +12129,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 144.78 177.8 0)
+		(property "Datasheet" ""
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12275,12 +12148,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8b87474-c02b-4580-b8d3-0ad8a6975e9e")
+			(uuid "329cf139-8115-4699-88f5-be7fd3679aac")
 		)
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP25")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12353,7 +12226,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 114.3 88.9 0)
+		(at 104.14 96.52 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12362,7 +12235,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cc9b71b-6d24-4583-8583-438347510fbd")
 		(property "Reference" "H2"
-			(at 116.84 86.3599 0)
+			(at 106.68 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12244,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 116.84 88.8999 0)
+			(at 106.68 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12381,7 +12254,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 114.3 88.9 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12390,7 +12263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 88.9 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12399,7 +12272,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 114.3 88.9 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12294,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 91.44 0)
+		(at 113.03 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12430,7 +12303,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ffc0051-142c-46a7-9c39-500d524e4aab")
 		(property "Reference" "#PWR040"
-			(at 123.19 97.79 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12312,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 96.52 0)
+			(at 113.03 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +12320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 91.44 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,7 +12329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 91.44 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,7 +12338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 91.44 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12969,73 +12842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 97.79 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92b53239-b338-4ecb-b784-681590951be4")
-		(property "Reference" "TP6"
-			(at 95.504 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 94.234 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 92.71 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 97.79 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7bebb30-4c71-45ac-aa51-149c0c2972a5")
-		)
-		(instances
-			(project "docking_station"
-				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 91.44 129.54 0)
 		(unit 1)
@@ -13116,7 +12922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d8ff0b4-85b0-464b-83fd-46eaaa57ed30")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 32.512 176.022 0)
 			(effects
 				(font
@@ -13168,7 +12974,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -13614,8 +13420,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adc30fed-cea2-4620-b554-00313aa65c79")
-		(property "Reference" "TP10"
-			(at 225.298 97.028 0)
+		(property "Reference" "TP9"
+			(at 226.314 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13666,7 +13472,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -13681,7 +13487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afe035e6-1950-4e92-a92a-5249a515af3d")
-		(property "Reference" "TP11"
+		(property "Reference" "CG1"
 			(at 156.972 30.226 0)
 			(effects
 				(font
@@ -13733,7 +13539,75 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP11")
+					(reference "CG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 144.78 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b05d94db-571c-4061-963f-86ef3c61e9b6")
+		(property "Reference" "H6"
+			(at 147.32 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 147.32 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36192d26-f298-496e-867b-d21e339fa3e4")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -13741,7 +13615,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 91.44 0)
+		(at 121.92 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13750,7 +13624,7 @@
 		(fields_autoplaced yes)
 		(uuid "b167c76f-4039-4b09-8640-4a33d41d2250")
 		(property "Reference" "#PWR041"
-			(at 132.08 97.79 0)
+			(at 121.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +13633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 96.52 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13767,7 +13641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 91.44 0)
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13776,7 +13650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 91.44 0)
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,7 +13659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 91.44 0)
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14097,7 +13971,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 91.44 0)
+		(at 95.25 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14106,7 +13980,7 @@
 		(fields_autoplaced yes)
 		(uuid "b67103ad-cb70-4e77-a6bf-1e299584d61e")
 		(property "Reference" "#PWR038"
-			(at 105.41 97.79 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14115,7 +13989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 96.52 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14123,7 +13997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 91.44 0)
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14132,7 +14006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 91.44 0)
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14141,7 +14015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 91.44 0)
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +14044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b87d132d-a285-46f8-a5ba-913d97d3ccea")
-		(property "Reference" "TP20"
+		(property "Reference" "GND1"
 			(at 42.926 165.608 0)
 			(effects
 				(font
@@ -14222,7 +14096,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP20")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -14415,8 +14289,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc40dcb7-0988-4799-8943-253ca7fcd50c")
-		(property "Reference" "TP19"
-			(at 46.99 38.608 0)
+		(property "Reference" "TP1"
+			(at 46.482 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14467,7 +14341,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP19")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -14544,15 +14418,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 31.75 127 0)
+		(at 223.52 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be9f3698-113b-43c6-b96a-359969f9b6fa")
-		(property "Reference" "TP26"
-			(at 30.734 123.698 0)
+		(uuid "c0cb3c58-8302-42e2-bf4d-9927bf5d170b")
+		(property "Reference" "TP10"
+			(at 220.472 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14561,7 +14435,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 35.306 118.11 0)
+			(at 219.964 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +14445,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 36.83 127 0)
+			(at 218.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14580,7 +14454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 127 0)
+			(at 218.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14589,7 +14463,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 127 0)
+			(at 223.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14598,12 +14472,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e87fab52-6c49-4665-88ac-634a98fe0c0e")
+			(uuid "ad2587f7-ab27-42b4-bc16-0368a56b5324")
 		)
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP26")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -14683,8 +14557,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1d27b8c-4e51-4679-8640-9d9b8d62a2b6")
-		(property "Reference" "TP3"
-			(at 35.052 188.722 0)
+		(property "Reference" "TP4"
+			(at 32.004 188.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14735,7 +14609,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -15485,7 +15359,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 132.08 88.9 0)
+		(at 121.92 96.52 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -15494,7 +15368,7 @@
 		(fields_autoplaced yes)
 		(uuid "d466deb9-7010-4634-8daf-c3bc7b9f2774")
 		(property "Reference" "H4"
-			(at 134.62 86.3599 0)
+			(at 124.46 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15503,7 +15377,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 134.62 88.8999 0)
+			(at 124.46 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15513,7 +15387,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 132.08 88.9 0)
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15522,7 +15396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 88.9 0)
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15531,7 +15405,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 132.08 88.9 0)
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15546,73 +15420,6 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 144.78 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7543f34-95e8-4ae7-b2cc-f493c867d9ba")
-		(property "Reference" "TP24"
-			(at 147.066 169.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 148.336 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 149.86 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 144.78 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8e67ef1-67b6-41b6-bdae-45fbe983f300")
-		)
-		(instances
-			(project "docking_station"
-				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -15770,7 +15577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d93aa09b-35de-4105-abb6-3dc04729e199")
-		(property "Reference" "TP15"
+		(property "Reference" "CS1"
 			(at 176.276 41.91 90)
 			(effects
 				(font
@@ -15822,7 +15629,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP15")
+					(reference "CS1")
 					(unit 1)
 				)
 			)
@@ -15830,7 +15637,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 105.41 88.9 0)
+		(at 95.25 96.52 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -15839,7 +15646,7 @@
 		(fields_autoplaced yes)
 		(uuid "da6cd21e-2f7f-42c5-a8a9-4a2977f95173")
 		(property "Reference" "H1"
-			(at 107.95 86.3599 0)
+			(at 97.79 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15848,7 +15655,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 107.95 88.8999 0)
+			(at 97.79 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15858,7 +15665,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 105.41 88.9 0)
+			(at 95.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +15674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 88.9 0)
+			(at 95.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15876,7 +15683,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 105.41 88.9 0)
+			(at 95.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,7 +15712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dca7ea72-48df-4f72-8c05-747fd20cf3aa")
-		(property "Reference" "TP18"
+		(property "Reference" "CS4"
 			(at 256.286 71.374 90)
 			(effects
 				(font
@@ -15957,7 +15764,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP18")
+					(reference "CS4")
 					(unit 1)
 				)
 			)
@@ -16232,6 +16039,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de0dcfed-9434-42e2-99be-49f193c0ba00")
+		(property "Reference" "#PWR044"
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a8f7c5f-5ca3-4006-9f70-c5178822231a")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 163.83 77.47 0)
@@ -16446,7 +16319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5341abf-5486-4a6e-94c0-a7a813c740b1")
-		(property "Reference" "TP14"
+		(property "Reference" "CG4"
 			(at 237.236 59.436 0)
 			(effects
 				(font
@@ -16498,7 +16371,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP14")
+					(reference "CG4")
 					(unit 1)
 				)
 			)
@@ -16783,7 +16656,7 @@
 			)
 		)
 		(property "Value" "RELPOL R40N-3021-85-1024"
-			(at 195.58 123.952 0)
+			(at 192.532 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16994,7 +16867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8bd37f7-2248-4be5-b1b7-e99e90dab058")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 26.162 176.022 0)
 			(effects
 				(font
@@ -17046,7 +16919,7 @@
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -17251,6 +17124,72 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc551a02-17df-43c8-8463-592ab4818b0f")
+		(property "Reference" "#PWR045"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e75678ad-6327-46d8-8bd9-c00777e6c4bd")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
