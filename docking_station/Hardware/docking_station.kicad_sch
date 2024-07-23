@@ -5085,16 +5085,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 41.91) (xy 130.81 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "018a6c59-f3f4-4e88-a162-6628ea348cab")
-	)
-	(wire
-		(pts
 			(xy 102.87 118.11) (xy 102.87 119.38)
 		)
 		(stroke
@@ -5162,6 +5152,16 @@
 			(type default)
 		)
 		(uuid "0996ffd1-356c-40a4-b9e2-d380668c6c10")
+	)
+	(wire
+		(pts
+			(xy 115.57 39.37) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcc60dd-3414-4d16-ba0f-b452aeba1c59")
 	)
 	(wire
 		(pts
@@ -5342,16 +5342,6 @@
 			(type default)
 		)
 		(uuid "2ba08da4-031b-497a-978d-735ab402b251")
-	)
-	(wire
-		(pts
-			(xy 115.57 39.37) (xy 125.73 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cbd0a6f-bf27-4ed2-a947-15a8548a9608")
 	)
 	(wire
 		(pts
@@ -5785,16 +5775,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 41.91) (xy 210.82 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7141cf01-debb-4b6e-80f6-1c59bd7e435d")
-	)
-	(wire
-		(pts
 			(xy 74.93 124.46) (xy 76.2 124.46)
 		)
 		(stroke
@@ -5942,6 +5922,16 @@
 			(type default)
 		)
 		(uuid "89fe7ef6-f03f-418b-ad23-0f490fcd505d")
+	)
+	(wire
+		(pts
+			(xy 210.82 41.91) (xy 210.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d87543d-58d0-4b72-a493-d852d225575b")
 	)
 	(wire
 		(pts
@@ -6285,6 +6275,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 60.96) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff28007-1721-4533-8d2d-e9e302199191")
+	)
+	(wire
+		(pts
 			(xy 54.61 44.45) (xy 54.61 46.99)
 		)
 		(stroke
@@ -6465,6 +6465,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 60.96) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb07ff48-9997-4c47-892d-9cf5ca6faeb6")
+	)
+	(wire
+		(pts
 			(xy 29.21 127) (xy 34.29 127)
 		)
 		(stroke
@@ -6472,6 +6482,16 @@
 			(type default)
 		)
 		(uuid "cbbcf429-2c9a-4b14-afd8-d11e49db0c08")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 130.81 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2eb8d4-2998-474b-816c-c4d2604c64b1")
 	)
 	(wire
 		(pts
@@ -8558,6 +8578,70 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 130.81 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17f3a2c5-c72a-488c-98a0-b385886341c4")
+		(property "Reference" "CJ2"
+			(at 128.016 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03fbc503-ba7e-4913-bc4e-b19a11193326")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "CJ2")
 					(unit 1)
 				)
 			)
@@ -11543,6 +11627,70 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 130.81 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "642b00b4-dfa3-4776-b37a-4e2ff25d05d6")
+		(property "Reference" "CJ1"
+			(at 128.016 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b243bdd4-b137-4a15-9983-da3d11beceb8")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "CJ1")
 					(unit 1)
 				)
 			)
@@ -14884,6 +15032,134 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 210.82 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5eee3ce-eb36-47a8-a6e7-a6bc394b3b45")
+		(property "Reference" "CJ4"
+			(at 208.026 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ca2eb77-4867-4ec0-8536-fc676deecf18")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "CJ4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 210.82 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6787b71-c6df-42b7-b9d1-ea15584a52aa")
+		(property "Reference" "CJ3"
+			(at 208.026 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 212.09 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53cd5d3c-443d-4770-830f-3e60cd1a6b01")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "CJ3")
 					(unit 1)
 				)
 			)
