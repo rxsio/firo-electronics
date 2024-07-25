@@ -1578,266 +1578,6 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NMOS_Depletion_DSG"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_Depletion_DSG"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Depletion-mode N-channel MOSFET drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Depletion-mode N-channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_Depletion_DSG_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NMOS_Depletion_DSG_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016) hide)
@@ -4886,12 +4626,6 @@
 		(uuid "1b93e548-56f1-4ac0-8e13-f917ab376a08")
 	)
 	(junction
-		(at 241.3 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "200049ca-74f1-4656-b8fa-fe88308de808")
-	)
-	(junction
 		(at 157.48 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4928,6 +4662,18 @@
 		(uuid "559f769b-153c-488d-bf6c-428ffad1fa23")
 	)
 	(junction
+		(at 240.03 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a238724-0a70-47b5-b6ac-2a952932ae55")
+	)
+	(junction
+		(at 241.3 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da00cd5-09e0-4921-b8ec-c3b90b7c2ad1")
+	)
+	(junction
 		(at 151.13 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4962,6 +4708,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ea3e38d-2d92-4066-ad89-8a5a21a2b42c")
+	)
+	(junction
+		(at 243.84 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87c1c808-16fd-4f80-ac18-d21b21971bb4")
 	)
 	(junction
 		(at 54.61 87.63)
@@ -5022,12 +4774,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf5d5385-8334-4b3e-981c-1d1d47618a8c")
-	)
-	(junction
-		(at 243.84 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d424ebba-c033-4e7d-a1dd-fe49f58493b8")
 	)
 	(junction
 		(at 69.85 44.45)
@@ -5156,16 +4902,6 @@
 			(type default)
 		)
 		(uuid "0fcc60dd-3414-4d16-ba0f-b452aeba1c59")
-	)
-	(wire
-		(pts
-			(xy 243.84 110.49) (xy 248.92 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a25b90-b723-4cc9-b434-eefbc6ec40fc")
 	)
 	(wire
 		(pts
@@ -5309,7 +5045,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 102.87) (xy 228.6 102.87)
+			(xy 223.52 102.87) (xy 231.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5326,6 +5062,16 @@
 			(type default)
 		)
 		(uuid "2ccd6a46-b50d-4b29-b137-c7b1a2a69d97")
+	)
+	(wire
+		(pts
+			(xy 240.03 143.51) (xy 241.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30434812-6aff-472b-9097-a6ec3f0b9747")
 	)
 	(wire
 		(pts
@@ -5429,7 +5175,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 102.87) (xy 241.3 102.87)
+			(xy 241.3 102.87) (xy 243.84 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5619,16 +5365,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 110.49) (xy 243.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611c167b-4daf-4fe2-a4b1-0c24906c6452")
-	)
-	(wire
-		(pts
 			(xy 80.01 57.15) (xy 91.44 57.15)
 		)
 		(stroke
@@ -5776,6 +5512,16 @@
 			(type default)
 		)
 		(uuid "77b6c9e1-0461-4bb8-a85a-7c52620ff707")
+	)
+	(wire
+		(pts
+			(xy 243.84 102.87) (xy 246.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a3fd0b-997f-460f-be75-6d38bd6a543e")
 	)
 	(wire
 		(pts
@@ -6029,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 102.87) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd334e5-7af6-4acc-a3b6-070c10fcd8ff")
+	)
+	(wire
+		(pts
 			(xy 143.51 135.89) (xy 143.51 139.7)
 		)
 		(stroke
@@ -6066,16 +5822,6 @@
 			(type default)
 		)
 		(uuid "a2f1e10d-8bcc-4d20-b648-3f485ff2271f")
-	)
-	(wire
-		(pts
-			(xy 241.3 102.87) (xy 243.84 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f25647-ee9d-422f-a037-752ab13a5a5b")
 	)
 	(wire
 		(pts
@@ -6309,6 +6055,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 110.49) (xy 241.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f8c2b0-0566-4d73-99c2-d21f01a61f47")
+	)
+	(wire
+		(pts
+			(xy 236.22 143.51) (xy 240.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c7433c-f72b-483d-853c-051835569f75")
+	)
+	(wire
+		(pts
 			(xy 246.38 41.91) (xy 246.38 43.18)
 		)
 		(stroke
@@ -6406,16 +6172,6 @@
 			(type default)
 		)
 		(uuid "c61a0721-5aa6-44e5-9f4f-16b7bab985d9")
-	)
-	(wire
-		(pts
-			(xy 241.3 102.87) (xy 241.3 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c754779e-3d82-4403-b152-804d8c114937")
 	)
 	(wire
 		(pts
@@ -6679,7 +6435,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 110.49) (xy 243.84 110.49)
+			(xy 236.22 110.49) (xy 241.3 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6689,7 +6445,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 102.87) (xy 261.62 102.87)
+			(xy 256.54 102.87) (xy 264.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6756,6 +6512,16 @@
 			(type default)
 		)
 		(uuid "e7f93b7e-4e1e-4c92-b32a-f743320c1e9b")
+	)
+	(wire
+		(pts
+			(xy 241.3 110.49) (xy 251.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa68152-2ced-4cb4-a5f1-67cd5f7d8b99")
 	)
 	(wire
 		(pts
@@ -6856,6 +6622,16 @@
 			(type default)
 		)
 		(uuid "f6b9fd43-5c95-425c-b92b-a1ff2e2c5b69")
+	)
+	(wire
+		(pts
+			(xy 240.03 148.59) (xy 240.03 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d65873-9cd2-43ec-a5b8-6f2af0754ec4")
 	)
 	(wire
 		(pts
@@ -7423,17 +7199,6 @@
 		)
 		(uuid "10a57f1b-0c33-44f2-9038-c25b9e6f5540")
 	)
-	(text "NOT DEPLETION-MODE\nIN THIS SETUP"
-		(exclude_from_sim no)
-		(at 260.858 109.728 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 86 22 1)
-			)
-		)
-		(uuid "64b76f26-3e45-4247-b2e6-2ec7384b69b0")
-	)
 	(text "100V/V"
 		(exclude_from_sim no)
 		(at 77.216 136.144 0)
@@ -7534,6 +7299,17 @@
 		)
 		(uuid "af700250-75c5-405b-9b66-b580aed0d149")
 	)
+	(text "Some COM LEDs?"
+		(exclude_from_sim no)
+		(at 81.788 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 86 22 1)
+			)
+		)
+		(uuid "bc40813d-1fe9-4325-a405-c356de44797e")
+	)
 	(text "POLARITY MATCHING CIRCUIT\n"
 		(exclude_from_sim no)
 		(at 196.088 27.432 0)
@@ -7543,17 +7319,6 @@
 			)
 		)
 		(uuid "c6a3266c-2e94-4755-a23e-fd225d4c748b")
-	)
-	(text "CH_END PULLDOWN?\n"
-		(exclude_from_sim no)
-		(at 186.182 139.192 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 86 22 1)
-			)
-		)
-		(uuid "cb42c526-0dd0-45ee-a574-960fbbc7103f")
 	)
 	(text "BYPASS JMP"
 		(exclude_from_sim no)
@@ -7640,7 +7405,7 @@
 		(uuid "29d75fcb-d1fc-4cf3-9aff-363cc6d5654e")
 	)
 	(label "LINE_A"
-		(at 261.62 102.87 180)
+		(at 264.16 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7916,7 +7681,7 @@
 	)
 	(global_label "CH_END"
 		(shape input)
-		(at 241.3 143.51 180)
+		(at 236.22 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7926,7 +7691,7 @@
 		)
 		(uuid "6ccfc3cf-181f-4564-8117-5ccfbf046b0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9972 143.51 0)
+			(at 225.9172 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,41 +8573,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_Depletion_DSG")
-		(at 233.68 105.41 90)
+		(lib_id "Device:R_Small")
+		(at 240.03 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1bef1dde-fe9e-4fb8-b770-c104d5e41091")
-		(property "Reference" "Q10"
-			(at 233.426 97.028 90)
+		(uuid "1c620c2c-a5a0-49af-bb1b-2028d51d4214")
+		(property "Reference" "R12"
+			(at 237.236 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DN2540N8-G"
-			(at 233.68 99.06 90)
+		(property "Value" "10k"
+			(at 237.236 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 233.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
-			(at 233.68 105.41 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,8 +8607,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Depletion-mode N-channel MOSFET"
-			(at 233.68 105.41 0)
+		(property "Datasheet" "~"
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,18 +8626,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d2db02e-ee23-489b-a1c2-4b85f65a173e")
-		)
-		(pin "3"
-			(uuid "abd997aa-94b5-4abd-a805-9e37dc6c603b")
+			(uuid "ca627e76-90be-46c0-a54a-67a2a3492d1b")
 		)
 		(pin "2"
-			(uuid "b1d69507-4d6b-4268-9143-dc52a4724093")
+			(uuid "d1d2a765-b0d5-44bc-b4fe-ac1ea0ed873d")
 		)
 		(instances
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "Q10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9150,6 +8913,80 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002K")
+		(at 236.22 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2104fc9c-c1d2-4e3b-b12e-e0d6e18df180")
+		(property "Reference" "Q10"
+			(at 236.22 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002K"
+			(at 236.22 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 238.125 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 236.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f7866d6-7484-4d12-a04d-f89cbbabe9c9")
+		)
+		(pin "3"
+			(uuid "85dc4cde-7fe8-4094-9d61-8b7cf9df12d0")
+		)
+		(pin "1"
+			(uuid "cef99769-e05c-44db-b9d7-4bcd2574136b")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -10822,77 +10659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_Depletion_DSG")
-		(at 248.92 105.41 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d617f43-897e-4927-98e1-992cb86509d5")
-		(property "Reference" "Q11"
-			(at 249.174 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DN2540N8-G"
-			(at 248.92 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 248.92 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
-			(at 248.92 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Depletion-mode N-channel MOSFET"
-			(at 248.92 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e12f64da-c8f7-43da-88a7-914c90748d9f")
-		)
-		(pin "3"
-			(uuid "f1f2253d-1386-4ec8-b6ee-00bdb48f17c5")
-		)
-		(pin "2"
-			(uuid "3553f519-f807-4a13-b9e6-9f4f3f4102b4")
-		)
-		(instances
-			(project "docking_station"
-				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 54.61 90.17 0)
 		(mirror y)
@@ -12055,6 +11821,80 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002K")
+		(at 251.46 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e2a22b-3b0c-455d-b8cb-15ccd5e920ab")
+		(property "Reference" "Q11"
+			(at 251.46 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002K"
+			(at 251.46 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 249.555 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfb0ca57-618e-42d0-ab28-16c775295807")
+		)
+		(pin "3"
+			(uuid "6349239a-8bfa-4927-aa98-0e77f77cffbe")
+		)
+		(pin "1"
+			(uuid "20cf045f-f45d-4c97-abfa-13c0a09d3e6d")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -17028,6 +16868,72 @@
 			(project "docking_station"
 				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fecaa2c4-7082-48d0-8249-7c4e092d6c22")
+		(property "Reference" "#PWR043"
+			(at 240.03 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a33fc7ea-7068-4a5d-b5fc-e76426148c35")
+		)
+		(instances
+			(project "docking_station"
+				(path "/08748f9a-6084-44ea-8855-9d9812e8dfdd"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
