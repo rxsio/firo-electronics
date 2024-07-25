@@ -1,4 +1,4 @@
-(footprint "14 AWG soldering pad"
+(footprint "14 AWG THT"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "14 AWG soldering pad"
+	(property "Value" "14 AWG THT"
 		(at -0.04 4.93 0)
 		(unlocked yes)
 		(layer "F.Fab")
