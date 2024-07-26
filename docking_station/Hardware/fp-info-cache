@@ -1,4 +1,4 @@
-23655846307281214
+23666182459919323
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,27 @@ audio belton reverb
 0
 7
 7
+BLUE_ID
+BLUE_boat
+
+
+0
+0
+0
+BLUE_ID
+BLUE_boat_small
+
+
+0
+0
+0
+BLUE_ID
+BLUE_boat_supersmall
+
+
+0
+0
+0
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -96585,6 +96606,20 @@ Varistor VF
 0
 2
 2
+firo_ID
+FIRO2.1 (h=5mm)
+
+
+0
+0
+0
+firo_ID
+FIRO2.1 (h=5mm) INV
+
+
+0
+0
+0
 firo_footprints
 14 AWG THT
 
@@ -96627,6 +96662,13 @@ Integrated Circuit
 0
 4
 4
+firo_footprints
+Symbol_HighVoltage_Triangle_8x7mm_SScr
+High voltage symbol, in triangle, 8x7mm, copper layer
+warning graphic
+0
+0
+0
 firo_footprints
 WAGO 2601-3102
 2601-310

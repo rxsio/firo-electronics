@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -240,7 +243,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "61ed17a1-c982-4455-b11e-04231bc6f5d7")
 	)
-	(model "VOM1271T.stp"
+	(model "${KIPRJMOD}/3dmodels/01_VOM1271T.stp"
 		(offset
 			(xyz 0 0 0)
 		)

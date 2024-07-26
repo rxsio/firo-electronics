@@ -67,16 +67,25 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
+	(fp_line
 		(start -11.25 -4.8)
-		(end 11.25 4.8)
+		(end 11.25 -4.8)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "8df79020-c98d-4c0e-8620-5cc07bdcdfb7")
+		(uuid "4be15384-6926-4dee-b233-2346417c0097")
+	)
+	(fp_line
+		(start 11.25 4.8)
+		(end -11.25 4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ced4167-cca4-44fa-a1b0-473220dccb2a")
 	)
 	(fp_rect
 		(start -11.25 -4.8)
@@ -129,5 +138,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9904ba95-adad-424a-aa0e-9e3ba1dee85d")
+	)
+	(model "${KIPRJMOD}/3dmodels/FUSE.STEP"
+		(offset
+			(xyz -11 -4.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
 	)
 )

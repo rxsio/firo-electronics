@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7.8 -14.6)
-		(end -6.2 -14.6)
+		(start -7 -13.8)
+		(end -5.4 -13.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "023720ab-345b-4198-a92b-cd04a6ab334f")
 	)
 	(fp_line
-		(start -6.2 -14.6)
-		(end -6.2 -16.2)
+		(start -5.4 -13.8)
+		(end -5.4 -15.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "e97e7b25-ddcf-4354-93e4-1aeb0e239851")
 	)
 	(fp_line
-		(start -2.2 7.8)
-		(end -1.2 7.8)
+		(start -1.5 7)
+		(end -0.5 7)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -98,8 +98,8 @@
 		(uuid "1b5bacf7-3e72-4d1f-9a59-63f22c8ebea3")
 	)
 	(fp_line
-		(start -1.2 7.8)
-		(end -1.2 8.8)
+		(start -0.5 7)
+		(end -0.5 8)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -108,8 +108,8 @@
 		(uuid "c45ec78b-8c2a-4eaa-a3ec-239646b9585c")
 	)
 	(fp_line
-		(start 13.8 -16.2)
-		(end 13.8 12.6)
+		(start 13 -16.2)
+		(end 13 12.6)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -211,7 +211,7 @@
 	)
 	(pad "11" thru_hole circle
 		(at -0.12 -10.96)
-		(size 5 5)
+		(size 4 4)
 		(drill 2.35)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -219,7 +219,7 @@
 	)
 	(pad "12" thru_hole circle
 		(at 10.12 6.82)
-		(size 5 5)
+		(size 4 4)
 		(drill 2.35)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -227,7 +227,7 @@
 	)
 	(pad "14" thru_hole circle
 		(at 2.42 6.82)
-		(size 5 5)
+		(size 4 4)
 		(drill 2.35)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -248,5 +248,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "46be359e-0d6b-4730-b949-aa7ebf53d962")
+	)
+	(model "${KIPRJMOD}/3dmodels/e_R40N-2.STEP"
+		(offset
+			(xyz -20 13.5 20.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
 	)
 )

@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "BOURNS_3313J-1_SMD"
-		(at 0.45 -1.4 0)
+		(at 0.1 3.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3516d359-f884-40ed-b9ed-f6e2ca054008")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" "BOURNS_3313J-1_SMD"
-		(at 0.45 -2.4 0)
+		(at 0 6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -67,6 +67,26 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -1.7 0.6)
+		(end -1.7 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a8bd7f9-84c9-430d-a905-933f3880b1bf")
+	)
+	(fp_line
+		(start 1.7 -1.4)
+		(end 1.7 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8cde77f5-23bc-40df-9377-c43b428cd990")
+	)
 	(fp_line
 		(start -2.03 -2.02)
 		(end 1.97 -2.02)
@@ -108,7 +128,7 @@
 		(uuid "7e876d60-bd25-4a03-abc5-5160b0831f29")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.45 0.1 0)
+		(at 0 4.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "706782c4-572a-4e27-8ad1-bd6ad06cafec")
@@ -142,5 +162,16 @@
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "7db6fcc0-1955-4463-9683-4a0a4b4a1f53")
+	)
+	(model "${KIPRJMOD}/3dmodels/3313J-1-503E.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

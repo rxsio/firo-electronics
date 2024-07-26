@@ -300,9 +300,9 @@
 		(remove_unused_layers no)
 		(uuid "e9ba539d-adfe-47dc-b639-9eef9b445dd3")
 	)
-	(model "2601-3102.stp"
+	(model "${KIPRJMOD}/3dmodels/WAGO 2pin.stp"
 		(offset
-			(xyz 4.550000122 -0.01999999925 0.03999999851)
+			(xyz 4.5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
