@@ -1,4 +1,4 @@
-23666182459919323
+23667904638600015
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96634,6 +96634,13 @@ firo_footprints
 0
 1
 1
+firo_footprints
+AMASS_XT60PW-F-MP
+Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
+RC Connector XT60
+0
+4
+3
 firo_footprints
 BOURNS_3313J-1_SMD
 
