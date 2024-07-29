@@ -16013,7 +16013,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "100u"
 			(at 124.968 136.652 0)
 			(effects
 				(font

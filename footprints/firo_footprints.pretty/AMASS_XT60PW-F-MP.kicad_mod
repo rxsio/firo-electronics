@@ -367,15 +367,15 @@
 		(remove_unused_layers no)
 		(uuid "fb30f9bb-6a0b-4d8a-82b0-266eab794bc6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-F_1x02_P7.20mm_Horizontal.wrl"
+	(model "${KIPRJMOD}/3dmodels/XT60PW-F.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz -3.6 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 180 0)
 		)
 	)
 )
