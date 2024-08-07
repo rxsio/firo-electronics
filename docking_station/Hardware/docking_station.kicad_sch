@@ -8145,7 +8145,7 @@
 	)
 	(text "SUPPLY CONNECTOR & IDEAL DIODE CIRCUIT"
 		(exclude_from_sim no)
-		(at 69.342 24.384 0)
+		(at 64.008 25.146 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8275,7 +8275,7 @@
 	)
 	(text "THERMAL CHARGING CUTOFF CIRCUIT"
 		(exclude_from_sim no)
-		(at 131.064 157.48 0)
+		(at 131.064 156.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
