@@ -1,4 +1,4 @@
-23664474746913488
+23666196823392678
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96655,6 +96655,13 @@ warning graphic
 0
 0
 0
+firo_footprints
+TEConnectivity_RITS_Header_3P_V
+
+
+0
+5
+4
 firo_footprints
 TRACO THN 20WIR
 
