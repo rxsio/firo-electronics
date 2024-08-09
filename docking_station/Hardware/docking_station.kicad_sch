@@ -5777,6 +5777,16 @@
 		)
 		(uuid "3bc48c22-930a-49e5-adf9-dcac4f810260")
 	)
+	(polyline
+		(pts
+			(xy 242.57 146.05) (xy 246.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5ebce9-fcb3-4782-a510-689e43590bb5")
+	)
 	(wire
 		(pts
 			(xy 248.92 96.52) (xy 251.46 96.52)
@@ -7089,6 +7099,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 138.43) (xy 247.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd5d895-efee-474a-ab7e-8265e83abe94")
+	)
+	(wire
+		(pts
 			(xy 148.59 130.81) (xy 153.67 130.81)
 		)
 		(stroke
@@ -7539,7 +7559,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 142.24) (xy 247.65 144.78)
+			(xy 247.65 143.51) (xy 247.65 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8212,6 +8232,16 @@
 			)
 		)
 		(uuid "9dcda354-ab8d-4cd8-866e-d3d1117c716a")
+	)
+	(text "POSSIBLY NOT NEEDED!"
+		(exclude_from_sim no)
+		(at 231.648 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a190faf4-9ed1-4594-a234-9835a706848b")
 	)
 	(text "DELAY CIRCUIT"
 		(exclude_from_sim no)
@@ -9804,7 +9834,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 247.65 139.7 0)
+		(at 247.65 140.97 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9813,7 +9843,7 @@
 		(dnp no)
 		(uuid "1c620c2c-a5a0-49af-bb1b-2028d51d4214")
 		(property "Reference" "R17"
-			(at 244.856 139.954 0)
+			(at 244.856 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +9851,7 @@
 			)
 		)
 		(property "Value" "68k"
-			(at 244.856 141.986 0)
+			(at 244.856 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +9859,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.65 139.7 0)
+			(at 247.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +9868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 139.7 0)
+			(at 247.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +9877,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 247.65 139.7 0)
+			(at 247.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

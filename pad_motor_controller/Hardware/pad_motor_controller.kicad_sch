@@ -863,10 +863,9 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
+		(symbol "Device:D_Schottky_AAK"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -878,7 +877,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Schottky"
+			(property "Value" "D_Schottky_AAK"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -904,7 +903,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode"
+			(property "Description" "Schottky diode, anode on pins 1 and 2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -913,7 +912,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_keywords" "diode Schottky SCHDPAK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -931,13 +930,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_0_1"
+			(symbol "D_Schottky_AAK_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -946,10 +945,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -968,12 +967,23 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "D_Schottky_1_1"
+			(symbol "D_Schottky_AAK_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -989,7 +999,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -999,6 +1009,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1115,6 +1143,175 @@
 				)
 			)
 			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1428,6 +1625,127 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1907,6 +2225,24 @@
 						)
 					)
 					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -19.05 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2566,6 +2902,18 @@
 		)
 	)
 	(junction
+		(at 160.02 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06668362-635a-48be-8e7a-6e20d880ac0c")
+	)
+	(junction
+		(at 162.56 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1da5991e-e65e-4ea8-8700-aa09281c38c0")
+	)
+	(junction
 		(at 170.18 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2703,6 +3051,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 107.95) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a16c378-44f9-4314-b7ae-d21dcdd1e9fa")
+	)
+	(wire
+		(pts
 			(xy 160.02 91.44) (xy 170.18 91.44)
 		)
 		(stroke
@@ -2793,6 +3151,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 99.06) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbbe808-5344-4cb9-b5a2-2d06656086f8")
+	)
+	(wire
+		(pts
 			(xy 90.17 57.15) (xy 93.98 57.15)
 		)
 		(stroke
@@ -2820,6 +3188,16 @@
 			(type default)
 		)
 		(uuid "4b70ec8f-9c75-412d-be03-c259fe4fd367")
+	)
+	(wire
+		(pts
+			(xy 121.92 104.14) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bb4e1f-b13c-4630-9eda-4bcbafac8b60")
 	)
 	(wire
 		(pts
@@ -2853,26 +3231,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 101.6 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e49b0d-2452-432c-8a65-75d42e1e8c38")
-	)
-	(wire
-		(pts
-			(xy 121.92 96.52) (xy 101.6 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c751e07-4222-454f-8bb9-9c4ee0fff0b0")
-	)
-	(wire
-		(pts
 			(xy 143.51 119.38) (xy 143.51 118.11)
 		)
 		(stroke
@@ -2893,6 +3251,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 78.74) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c9c422-1f54-4cb1-a904-3b192a85975c")
+	)
+	(wire
+		(pts
 			(xy 127 91.44) (xy 127 93.98)
 		)
 		(stroke
@@ -2910,6 +3278,16 @@
 			(type default)
 		)
 		(uuid "6b3b86fe-b384-453a-82ac-f39501ea6b7c")
+	)
+	(wire
+		(pts
+			(xy 160.02 78.74) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c68b77c-23a3-4272-babe-0e8bd24cec0d")
 	)
 	(wire
 		(pts
@@ -2953,6 +3331,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 88.9) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b68f3d-2e24-4374-8da9-52fbf0cb701d")
+	)
+	(wire
+		(pts
 			(xy 116.84 101.6) (xy 101.6 101.6)
 		)
 		(stroke
@@ -2963,7 +3351,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 80.01) (xy 167.64 80.01)
+			(xy 160.02 78.74) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3023,16 +3411,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 121.92 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aee7a97-0faa-4754-9ae5-1c6b8178633b")
-	)
-	(wire
-		(pts
 			(xy 160.02 96.52) (xy 160.02 91.44)
 		)
 		(stroke
@@ -3063,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 115.57) (xy 160.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c70c25-d1c0-4eae-b4db-6677d4b128bb")
+	)
+	(wire
+		(pts
 			(xy 124.46 93.98) (xy 124.46 99.06)
 		)
 		(stroke
@@ -3073,23 +3461,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 82.55) (xy 160.02 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a551ac64-dd3a-4ec2-8403-190943b79e27")
-	)
-	(wire
-		(pts
-			(xy 167.64 80.01) (xy 167.64 82.55)
+			(xy 167.64 78.74) (xy 167.64 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a693fe1c-3c5a-43c2-9d08-73a7ad4101a0")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 101.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac55a89-9158-4a78-9caf-2674e82f3a72")
 	)
 	(wire
 		(pts
@@ -3223,7 +3611,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 119.38 109.22)
+			(xy 119.38 96.52) (xy 119.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3240,6 +3628,16 @@
 			(type default)
 		)
 		(uuid "f6394fb1-8d29-4945-8674-14851cac085f")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c5486a-f64d-4e59-9603-cd57dd1bd78f")
 	)
 	(wire
 		(pts
@@ -3260,6 +3658,16 @@
 			(type default)
 		)
 		(uuid "fdccc2b5-a95a-41be-a08c-d3b3b32cd884")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcdc0b5-0579-41d7-82a5-314360e35588")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3329,73 +3737,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14f78184-23df-4496-a4a9-9c6794b349c3")
-		(property "Reference" "#PWR015"
-			(at 203.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e94278cc-f6f1-41be-97fb-49f57d89b64a")
-		)
-		(instances
-			(project "pad_motor_controller"
-				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 114.3 0)
+		(at 160.02 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3404,7 +3746,7 @@
 		(fields_autoplaced yes)
 		(uuid "155f99bc-fca0-4ad2-9c25-fd36c5c50caf")
 		(property "Reference" "#PWR03"
-			(at 160.02 120.65 0)
+			(at 160.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 119.38 0)
+			(at 160.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +3763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 114.3 0)
+			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 114.3 0)
+			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 114.3 0)
+			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,6 +3996,75 @@
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 203.2 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3db73076-eee6-43a5-b7f4-f8c4c507435e")
+		(property "Reference" "D4"
+			(at 205.232 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "G2V4"
+			(at 205.232 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62e44c1b-79b2-46a6-b720-da083fe295dc")
+		)
+		(pin "2"
+			(uuid "db1405ca-747c-470d-b8ba-335620fdcdbc")
+		)
+		(instances
+			(project "pad_motor_controller"
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3935,6 +4346,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 203.2 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a33ba82-f909-4149-92d4-722ff35bcfa1")
+		(property "Reference" "#PWR015"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92c75d0a-b9b2-487f-bbc9-ce0ff95364e6")
+		)
+		(instances
+			(project "pad_motor_controller"
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor")
 		(at 116.84 110.49 0)
 		(unit 1)
@@ -4205,6 +4681,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 203.2 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55619e9c-b3a0-4188-829d-daa9317ecec4")
+		(property "Reference" "#PWR014"
+			(at 203.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "742b7fb9-62eb-42d5-a12c-f066c5def3c3")
+		)
+		(instances
+			(project "pad_motor_controller"
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 185.42 138.43 0)
 		(unit 1)
@@ -4331,141 +4873,6 @@
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 160.02 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6eec1e39-cb13-4fe4-a80a-b6f1a3bd9c29")
-		(property "Reference" "D1"
-			(at 162.56 85.4074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DST5100S-A"
-			(at 162.56 87.9474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277B"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56d5654e-8df2-49dd-9b34-fbe1eee5cfbb")
-		)
-		(pin "2"
-			(uuid "5d60813e-0040-48b3-a1e2-ec69c167e24a")
-		)
-		(instances
-			(project "pad_motor_controller"
-				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 194.31 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "760489fb-3a7a-4d2b-8d0f-7f90320038fc")
-		(property "Reference" "#PWR014"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c92311ba-feb9-4dac-b29d-a9a8fc5707a3")
-		)
-		(instances
-			(project "pad_motor_controller"
-				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4608,6 +5015,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 203.2 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b856266-8f35-4915-b07a-88abe7265395")
+		(property "Reference" "R3"
+			(at 204.978 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k9"
+			(at 204.978 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 201.422 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8348e90a-34f3-4be2-99e0-9a56e30ecd01")
+		)
+		(pin "2"
+			(uuid "43b33797-84ae-4386-8117-ac39b92961b3")
+		)
+		(instances
+			(project "pad_motor_controller"
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 116.84 0)
 		(unit 1)
@@ -4741,74 +5217,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 203.2 135.89 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cbfdf7c-dbe0-4f48-b9e1-c5100d681de3")
-		(property "Reference" "H4"
-			(at 205.74 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 205.74 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 203.2 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 203.2 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f3013b6-97bc-4253-bc6c-141a7509a361")
-		)
-		(instances
-			(project "pad_motor_controller"
-				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FIRO_collected:L6201PS")
 		(at 140.97 99.06 0)
 		(unit 1)
@@ -4905,6 +5313,9 @@
 		(pin "17"
 			(uuid "82b3fa16-27a6-46df-a092-9c31d5360aa1")
 		)
+		(pin "21"
+			(uuid "2f3ec217-44d8-445e-ab20-7c3780e02699")
+		)
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
@@ -4975,76 +5386,6 @@
 			(project ""
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 160.02 110.49 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f57057f-969b-4c89-8ce2-b0a0ec910909")
-		(property "Reference" "D2"
-			(at 162.56 111.4426 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DST5100S-A"
-			(at 162.56 108.9026 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277B"
-			(at 160.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 160.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b8acc49-73de-4d98-92d8-920d1e6749cb")
-		)
-		(pin "2"
-			(uuid "3084ebe7-4aad-45f1-b6c3-e6ed9914e4b1")
-		)
-		(instances
-			(project "pad_motor_controller"
-				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5227,74 +5568,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 194.31 135.89 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb8063e5-a06b-4d90-9e7b-085a7a1b4271")
-		(property "Reference" "H3"
-			(at 196.85 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 196.85 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 194.31 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 194.31 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06d04805-c2c8-41c5-b673-f94f9e86cf16")
-		)
-		(instances
-			(project "pad_motor_controller"
-				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 64.77 0)
 		(unit 1)
@@ -5455,7 +5728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "firo_footprints:WAGO 2601-3102"
 			(at 184.15 97.79 0)
 			(effects
 				(font
@@ -5634,7 +5907,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 82.55 0)
+		(at 167.64 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5642,7 +5915,7 @@
 		(dnp no)
 		(uuid "da568fee-093c-441b-8a60-0fda04625319")
 		(property "Reference" "#PWR04"
-			(at 167.64 88.9 0)
+			(at 167.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 84.328 0)
+			(at 171.45 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 82.55 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +5941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 82.55 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 82.55 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 96.52 54.61 0)
 			(effects
 				(font
@@ -5830,6 +6103,152 @@
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AAK")
+		(at 160.02 110.49 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efe3ebc4-0d3a-419d-81f6-c2b03b3e06cc")
+		(property "Reference" "D2"
+			(at 162.306 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DST5100S"
+			(at 162.306 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277B"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 2"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5626df25-150d-4272-aaac-c40c991bf27f")
+		)
+		(pin "2"
+			(uuid "b162d9ad-5b10-4f27-95b4-0f3f7c093157")
+		)
+		(pin "1"
+			(uuid "9705b233-1b38-4452-b748-785c953f87c1")
+		)
+		(instances
+			(project "pad_motor_controller"
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AAK")
+		(at 160.02 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb496ff3-cae4-4ea6-b3dc-54b0aa4ef21d")
+		(property "Reference" "D1"
+			(at 164.084 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DST5100S"
+			(at 171.196 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277B"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 2"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6b1ee496-8098-46ca-b677-f441cf423fb9")
+		)
+		(pin "2"
+			(uuid "a2885f89-d3da-44fb-93e3-a8e358cd2c32")
+		)
+		(pin "1"
+			(uuid "63215fe4-0748-41cf-8d63-277174fd0492")
+		)
+		(instances
+			(project "pad_motor_controller"
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "D1")
 					(unit 1)
 				)
 			)
