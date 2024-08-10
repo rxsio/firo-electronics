@@ -61,7 +61,6 @@
       "drc_exclusions": [
         "courtyards_overlap|132694001|124762001|8a0f1f6f-c506-4a80-9a96-6ce4aa63e1e6|ee39edd0-1411-48bb-9c14-400d548cd177",
         "courtyards_overlap|160960426|113066426|1280025c-e143-4b42-a78b-fb69b3eb5101|931c7615-a8e6-4aa9-87b7-22ab4c0de52c",
-        "silk_edge_clearance|109750000|70246000|460a00fb-64eb-4a26-aa85-1369eddf8a12|f42d92ce-ec7e-4d0d-8944-b0de5988ec7d",
         "silk_overlap|139200000|78850000|c621437c-e5c3-4c54-9e85-6b7b0cbd6cfe|780b56b8-9363-4936-98f9-69ed38645706",
         "silk_overlap|145309331|65737856|1baf09a4-a6d9-4e3d-bef3-985fc02d8a85|fccd9326-bf2b-4cba-aadb-6927e7774954",
         "silk_overlap|152435000|109008500|455149d3-6850-4148-a2b7-dfa8e23978fd|a7635d1e-4e41-4cec-8d1f-caf9aea1aa8e"
@@ -538,7 +537,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -586,6 +585,36 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Farnell Part Number",
+          "name": "Farnell Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Farnell Price/Stock",
+          "name": "Farnell Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
           "show": false
         }
       ],

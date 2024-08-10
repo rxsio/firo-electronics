@@ -11028,7 +11028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "003fd816-7f72-4dec-aeb8-d46427b55f16")
-		(property "Reference" "J4"
+		(property "Reference" "J9"
 			(at 144.145 161.29 0)
 			(effects
 				(font
@@ -11098,7 +11098,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J4")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11113,7 +11113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "007db282-15af-449d-9e63-ca85c6b4a863")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 183.642 149.352 90)
 			(effects
 				(font
@@ -11167,7 +11167,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11182,7 +11182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "019ef90e-fda3-4559-b330-9a12ada6d216")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 119.38 59.436 90)
 			(effects
 				(font
@@ -11234,7 +11234,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11249,7 +11249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03f782d3-0238-4535-82d5-2043260465e8")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 101.6 58.42 0)
 			(effects
 				(font
@@ -11299,7 +11299,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11315,7 +11315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ce2652-6421-4c21-83d0-7a7446b6ccd0")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR08"
 			(at 33.02 60.96 0)
 			(effects
 				(font
@@ -11365,7 +11365,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR065")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11381,7 +11381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0902b41e-28bc-4141-bacc-4ae9317986db")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 40.64 176.5299 0)
 			(effects
 				(font
@@ -11435,7 +11435,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11657,7 +11657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c736e19-a660-4b99-9240-57a4b2d4fb4d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR071"
 			(at 243.84 100.33 0)
 			(effects
 				(font
@@ -11707,7 +11707,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR053")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -11723,7 +11723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2b6999-e8b9-48da-9414-ee2c7e59687c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR06"
 			(at 27.94 104.14 0)
 			(effects
 				(font
@@ -11773,7 +11773,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR031")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11788,7 +11788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ea00cff-7d69-4a0c-9679-3587f44707b2")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 193.802 34.544 0)
 			(effects
 				(font
@@ -11842,7 +11842,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11857,7 +11857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eafa47a-230e-41c1-92d9-2e0d93f120af")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 134.62 35.5662 0)
 			(effects
 				(font
@@ -11911,7 +11911,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11926,7 +11926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10eb2327-2540-44da-be1f-31424461418e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR052"
 			(at 191.77 34.29 0)
 			(effects
 				(font
@@ -11976,7 +11976,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR07")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11992,7 +11992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10ef6013-ac85-4f48-b7ab-27cdcef528bd")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR068"
 			(at 236.22 139.7 0)
 			(effects
 				(font
@@ -12042,7 +12042,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR073")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -12057,7 +12057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1225130f-e299-460a-8d77-e63f3bc24d2e")
-		(property "Reference" "C3"
+		(property "Reference" "C8"
 			(at 196.342 58.674 0)
 			(effects
 				(font
@@ -12111,7 +12111,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C3")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12127,7 +12127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1439ceed-a27f-4f99-a605-6f3c71bcb239")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 91.44 121.92 0)
 			(effects
 				(font
@@ -12177,7 +12177,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12193,7 +12193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1635021f-6ca4-418c-b7ec-ea4d643a1bff")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR026"
 			(at 91.44 187.96 0)
 			(effects
 				(font
@@ -12243,7 +12243,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR072")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12259,7 +12259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1887b12b-f061-455b-9b36-0320413913da")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR067"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -12309,7 +12309,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -12325,7 +12325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1938457e-6604-4de6-91f4-a9bd02b8abac")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR044"
 			(at 161.29 45.72 0)
 			(effects
 				(font
@@ -12375,7 +12375,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -12390,7 +12390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a04b775-04ae-4770-aa33-c59c364baf6b")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 181.102 34.544 0)
 			(effects
 				(font
@@ -12444,7 +12444,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12460,7 +12460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb03b9c-664e-4a8a-8982-6e8453c1d23b")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR069"
 			(at 232.41 120.65 0)
 			(effects
 				(font
@@ -12511,7 +12511,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR074")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12527,7 +12527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f08cf6b-2df0-4786-a759-470eebc89789")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR027"
 			(at 96.52 163.83 0)
 			(effects
 				(font
@@ -12577,7 +12577,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR041")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12662,7 +12662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26e1d096-9020-4904-b643-7e1ae4a5b638")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR010"
 			(at 34.29 170.18 0)
 			(effects
 				(font
@@ -12712,7 +12712,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR030")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12793,7 +12793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a012d2d-33c3-4729-b2f3-645a8cb81625")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR04"
 			(at 22.86 172.72 0)
 			(effects
 				(font
@@ -12843,7 +12843,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR070")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12859,7 +12859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c08d01c-be48-4c2c-9916-33721c29fa72")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -12909,7 +12909,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12925,7 +12925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd66845-e0e9-4447-bdb8-02891813a6e3")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR076"
 			(at 256.54 161.29 0)
 			(effects
 				(font
@@ -12975,7 +12975,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR061")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -12990,7 +12990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2da150ac-8472-44e2-9490-2acf116e630f")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 104.14 85.0899 0)
 			(effects
 				(font
@@ -13044,7 +13044,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13060,7 +13060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ecfe36a-4b50-453a-bb51-b1720cb666c8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR062"
 			(at 217.17 76.2 0)
 			(effects
 				(font
@@ -13110,7 +13110,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR048")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -13126,7 +13126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3154a084-200a-4419-b807-00d0c4627d08")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR09"
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -13176,7 +13176,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR044")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -13192,7 +13192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3480a1ab-9def-4e9a-a8de-89df52a5805b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 57.15 31.75 0)
 			(effects
 				(font
@@ -13242,7 +13242,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13327,7 +13327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37e200bb-8459-41d6-8e8c-7249496da7b0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR047"
 			(at 179.07 58.42 0)
 			(effects
 				(font
@@ -13377,7 +13377,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR04")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13393,7 +13393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3943498f-0c8a-44e2-8502-31aab48a9514")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR038"
 			(at 146.05 58.42 0)
 			(effects
 				(font
@@ -13443,7 +13443,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR06")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13459,7 +13459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a0143bc-9df5-4e52-8942-c1fcb170a02e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR032"
 			(at 102.87 106.68 0)
 			(effects
 				(font
@@ -13509,7 +13509,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR021")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13524,7 +13524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a43da91-85e9-49d0-893f-70f58a273d57")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR024"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -13574,7 +13574,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR057")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13589,7 +13589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a5037a8-c676-43e0-a561-b323326854a3")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR064"
 			(at 222.25 162.56 0)
 			(effects
 				(font
@@ -13639,7 +13639,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR081")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -13849,7 +13849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41adf82c-d9e5-4d47-a905-788e6eb64873")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 261.112 59.69 0)
 			(effects
 				(font
@@ -13903,7 +13903,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13919,7 +13919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43343a3c-1731-4897-a8be-6a5a61b8a01d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR046"
 			(at 179.07 44.45 0)
 			(effects
 				(font
@@ -13969,7 +13969,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR019")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13985,7 +13985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43e14e16-2959-4c09-bd99-9268a112eb68")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 115.57 176.53 0)
 			(effects
 				(font
@@ -14035,7 +14035,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14050,7 +14050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47a12257-f318-4f28-aabc-4302538bb320")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR061"
 			(at 212.09 162.56 0)
 			(effects
 				(font
@@ -14100,7 +14100,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR079")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -14116,7 +14116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "481f1a9f-c99e-45e2-9f2f-5e1b5492a66a")
-		(property "Reference" "J12"
+		(property "Reference" "J7"
 			(at 85.598 172.466 0)
 			(effects
 				(font
@@ -14174,7 +14174,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J12")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -14190,7 +14190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c0adbe8-9fb1-4ebf-ba6b-5f0c06aa8303")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 37.592 81.28 90)
 			(effects
 				(font
@@ -14262,7 +14262,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14420,7 +14420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5234b979-73f9-4649-a160-c9204f9e9b6b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR063"
 			(at 222.25 88.9 0)
 			(effects
 				(font
@@ -14470,7 +14470,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR051")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -14485,7 +14485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52848a74-287c-4561-ac48-f0909b95ec1d")
-		(property "Reference" "R12"
+		(property "Reference" "R7"
 			(at 41.91 124.4599 0)
 			(effects
 				(font
@@ -14539,7 +14539,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R12")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14555,7 +14555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "539d8a2d-6539-4b22-ad62-1dcd43bcb631")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 25.4 88.9062 0)
 			(effects
 				(font
@@ -14609,7 +14609,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -14625,7 +14625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53db4475-4f03-4bcb-bf69-b6e0212a760e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR057"
 			(at 201.93 68.58 0)
 			(effects
 				(font
@@ -14675,7 +14675,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR05")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -14690,7 +14690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54c13033-4fce-4a8a-8970-83c7f20ba19f")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 104.14 59.436 90)
 			(effects
 				(font
@@ -14742,7 +14742,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14758,7 +14758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56bc0510-a2cf-466d-a211-e0b623c52b92")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 153.3241 137.16 0)
 			(effects
 				(font
@@ -14951,7 +14951,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -14967,7 +14967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59605935-c7ec-446b-a6ad-6f5d17d16630")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR079"
 			(at 266.7 120.65 0)
 			(effects
 				(font
@@ -15017,7 +15017,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR066")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -15032,7 +15032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c3279f2-19ef-447c-9180-8e4eb33fd546")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR013"
 			(at 38.1 176.53 0)
 			(effects
 				(font
@@ -15082,7 +15082,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR034")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15098,7 +15098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61a64985-4e67-45d1-907f-ab935b225251")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR066"
 			(at 227.33 114.3 0)
 			(effects
 				(font
@@ -15148,7 +15148,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR069")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -15164,7 +15164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63e6468e-50a6-4d58-a804-2bd00e8dd39a")
-		(property "Reference" "J11"
+		(property "Reference" "J5"
 			(at 18.288 157.226 0)
 			(effects
 				(font
@@ -15222,7 +15222,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J11")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -15237,7 +15237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65505908-b32f-4ad0-86be-376af21241e4")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR050"
 			(at 181.61 162.56 0)
 			(effects
 				(font
@@ -15287,7 +15287,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR025")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -15303,7 +15303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c00a34-2644-4f18-9914-759cd4dc53d9")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR065"
 			(at 227.33 76.2 0)
 			(effects
 				(font
@@ -15353,7 +15353,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR049")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -15369,7 +15369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b10d053-2d04-4b6b-b287-3641aff2e4a5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 33.02 44.45 0)
 			(effects
 				(font
@@ -15419,7 +15419,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15502,7 +15502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ca1f32a-8505-4155-8975-449c54bbd40a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR077"
 			(at 259.08 67.31 0)
 			(effects
 				(font
@@ -15552,7 +15552,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR047")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -15710,7 +15710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70c0bcba-2092-4207-a965-a8fe9c609584")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR012"
 			(at 38.1 157.48 0)
 			(effects
 				(font
@@ -15760,7 +15760,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR032")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15775,7 +15775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7114a4b0-430a-4068-ae99-6e40a21f5fd1")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 26.67 39.37 0)
 			(effects
 				(font
@@ -15830,7 +15830,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15845,7 +15845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "724a0159-ff5e-43d0-be6c-e417ea0c5aa2")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 107.95 52.324 90)
 			(effects
 				(font
@@ -15897,7 +15897,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -15913,7 +15913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72a38263-0f1c-4157-971a-07d72d3fe4c8")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 65.024 100.584 90)
 			(effects
 				(font
@@ -15970,7 +15970,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15986,7 +15986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a971df-2d38-43f3-8c65-21b0c73d6117")
-		(property "Reference" "R2"
+		(property "Reference" "R9"
 			(at 40.64 157.4799 0)
 			(effects
 				(font
@@ -16040,7 +16040,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16055,7 +16055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73d5b646-a32e-48a4-ba8c-6a22fc6e4275")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 255.016 83.566 0)
 			(effects
 				(font
@@ -16128,7 +16128,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -16209,7 +16209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74169cd5-ddcb-4d9c-bc9c-6f13a6592841")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 64.77 92.71 0)
 			(effects
 				(font
@@ -16269,7 +16269,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -16353,7 +16353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b61660-a26e-4ffb-93a8-a74e55c507ac")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 271.78 72.3899 0)
 			(effects
 				(font
@@ -16407,7 +16407,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -16423,7 +16423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79bb3e44-8666-42e3-a316-79d6969c0af6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR056"
 			(at 194.31 68.58 0)
 			(effects
 				(font
@@ -16473,7 +16473,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR03")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -16558,7 +16558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cacfd2e-8b9c-4e01-9f49-16e24be2353b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR072"
 			(at 247.65 161.29 0)
 			(effects
 				(font
@@ -16608,7 +16608,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR060")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -16624,7 +16624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e5de75d-6b71-4244-a31c-c27942e653f0")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR078"
 			(at 265.43 161.29 0)
 			(effects
 				(font
@@ -16674,7 +16674,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR062")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -16690,7 +16690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ea09e9f-700c-44b8-84eb-1b2f4f97eb21")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR051"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -16740,7 +16740,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR02")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16824,7 +16824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "818fe083-1ac9-43b2-9a27-f41a14887df2")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR045"
 			(at 179.07 34.29 0)
 			(effects
 				(font
@@ -16874,7 +16874,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR018")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -16890,7 +16890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825dc997-68b3-430e-a378-e43fdeeefcdb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 137.16 30.48 0)
 			(effects
 				(font
@@ -16940,7 +16940,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -16955,7 +16955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87148274-f583-4dba-a66d-4020152cf082")
-		(property "Reference" "TH2"
+		(property "Reference" "TH1"
 			(at 67.056 172.974 0)
 			(effects
 				(font
@@ -17009,7 +17009,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "TH2")
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -17092,7 +17092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88b8b6f4-d947-4ac1-a9b8-8931287b5cd5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR017"
 			(at 50.8 109.22 0)
 			(effects
 				(font
@@ -17142,7 +17142,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR027")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17157,7 +17157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ce9b7ba-9fe8-4487-b2ee-0e352541cbd3")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR029"
 			(at 100.33 67.31 0)
 			(effects
 				(font
@@ -17207,7 +17207,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR045")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17224,7 +17224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "906f8a8a-9feb-4d6e-8831-69d212ec6105")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR016"
 			(at 50.8 92.71 0)
 			(effects
 				(font
@@ -17274,7 +17274,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR026")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -17289,7 +17289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91c53dc9-a5e8-473f-8716-4ca6de39086c")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 36.83 115.5699 0)
 			(effects
 				(font
@@ -17343,7 +17343,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -17358,7 +17358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9247fe8d-4547-4d79-8152-304d3c709948")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 188.722 58.674 0)
 			(effects
 				(font
@@ -17413,7 +17413,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -17498,7 +17498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93f511c0-7bc2-48cf-9dbd-ea8313fcd5fd")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 98.044 116.078 0)
 			(effects
 				(font
@@ -17553,7 +17553,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -17569,7 +17569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94d56ddb-cb4a-46e4-a49b-da378e08774b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 67.31 88.9 0)
 			(effects
 				(font
@@ -17619,7 +17619,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17634,7 +17634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "954a2fce-4316-41a6-ae42-8df9e3f0d183")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 180.848 58.674 0)
 			(effects
 				(font
@@ -17689,7 +17689,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -17704,7 +17704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95eaec04-b766-410f-a1c9-dbaf35ae15f1")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 204.47 58.674 0)
 			(effects
 				(font
@@ -17758,7 +17758,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17774,7 +17774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "970cf764-8231-4d06-8499-99d930b2a17e")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR031"
 			(at 101.6 100.33 0)
 			(effects
 				(font
@@ -17824,7 +17824,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR075")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17840,7 +17840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99e260d0-c131-456a-ae82-cae2d013e59a")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 95.25 30.4799 0)
 			(effects
 				(font
@@ -17894,7 +17894,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17910,7 +17910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c72d44f-5f57-4957-a2cb-bbc29e4dab45")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR058"
 			(at 201.93 139.7 0)
 			(effects
 				(font
@@ -17960,7 +17960,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR076")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18045,7 +18045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d6f4101-1444-4e3a-83b2-9055613ed088")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR042"
 			(at 156.21 193.04 0)
 			(effects
 				(font
@@ -18095,7 +18095,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR023")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -18111,7 +18111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc21b47-a49b-44f0-aedb-ccdde367d59f")
-		(property "Reference" "J13"
+		(property "Reference" "J10"
 			(at 246.38 106.68 0)
 			(effects
 				(font
@@ -18205,7 +18205,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -18221,7 +18221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e85736d-a563-4560-957d-bd6b2af63642")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR073"
 			(at 252.73 57.15 0)
 			(effects
 				(font
@@ -18271,7 +18271,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR050")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -18287,7 +18287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1157578-be38-4f07-afeb-a9f2826fddf6")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 41.91 24.13 90)
 			(effects
 				(font
@@ -18342,7 +18342,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -18358,7 +18358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a181b27c-a629-4ce6-b239-bf49069ee633")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR074"
 			(at 252.73 90.17 0)
 			(effects
 				(font
@@ -18408,7 +18408,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR052")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -18424,7 +18424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f67520-8c76-4af1-9baa-bda96672ad48")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 123.19 167.64 0)
 			(effects
 				(font
@@ -18482,7 +18482,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -18498,7 +18498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a78a1d1c-8a27-4039-94a3-cfe7252a579a")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 73.66 22.86 0)
 			(effects
 				(font
@@ -18562,7 +18562,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -18578,7 +18578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab949bb7-d5c2-4f11-9c7c-70bd3d02ec29")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR028"
 			(at 99.06 187.96 0)
 			(effects
 				(font
@@ -18628,7 +18628,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR042")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18644,7 +18644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6a53da-cc6c-4ef4-8525-b804abe7274c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR049"
 			(at 181.61 139.7 0)
 			(effects
 				(font
@@ -18694,7 +18694,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR020")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -18709,7 +18709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acc06d10-bc21-4e8c-97a6-6aaf5188e6ec")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 76.2 162.5599 0)
 			(effects
 				(font
@@ -18763,7 +18763,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18779,7 +18779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad11d0d9-833c-42b3-a4e0-aff3190ce4a2")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 163.83 35.5662 0)
 			(effects
 				(font
@@ -18833,7 +18833,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -18987,7 +18987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b109a548-3445-456a-bf9c-60f7f358ee32")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR021"
 			(at 73.66 163.83 0)
 			(effects
 				(font
@@ -19037,7 +19037,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR040")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -19121,7 +19121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b29f7a58-8a57-4cec-9a4e-d6c3b17ae533")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 205.232 34.544 0)
 			(effects
 				(font
@@ -19175,7 +19175,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -19261,7 +19261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6aa7c2a-9873-4388-843c-d7964332708f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR048"
 			(at 179.07 68.58 0)
 			(effects
 				(font
@@ -19311,7 +19311,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR01")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -19328,7 +19328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5602d3-069d-4097-8b26-5eabf91dbdf4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR01"
 			(at 19.05 106.68 0)
 			(effects
 				(font
@@ -19378,7 +19378,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR011")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -19394,7 +19394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bde075e8-1b9d-4fd9-bd3d-90f803f817fd")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR035"
 			(at 135.89 184.15 0)
 			(effects
 				(font
@@ -19444,7 +19444,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR028")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -19459,7 +19459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c25bbd03-2c99-48e8-aed2-c58c2707875e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR034"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -19509,7 +19509,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR046")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -19524,7 +19524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6743c2d-ecaf-4974-8277-03110f9aa1ad")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 24.13 116.078 0)
 			(effects
 				(font
@@ -19579,7 +19579,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -19594,7 +19594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7f83920-c62a-4feb-acb9-bc6b0cbed3d0")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR05"
 			(at 22.86 191.77 0)
 			(effects
 				(font
@@ -19644,7 +19644,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR071")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19659,7 +19659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c86a3818-1c08-42dd-8bac-7349cece585f")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 26.67 54.102 0)
 			(effects
 				(font
@@ -19714,7 +19714,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -19729,7 +19729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8f5b95b-2b24-4458-91bb-551a4d89b008")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR059"
 			(at 201.93 162.56 0)
 			(effects
 				(font
@@ -19779,7 +19779,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR077")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -19795,7 +19795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cab5cd93-35c4-4d1d-a428-b343571715d7")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR014"
 			(at 39.37 135.89 0)
 			(effects
 				(font
@@ -19845,7 +19845,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR063")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -19860,7 +19860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc75ce45-8c84-42a4-a296-715a56463af5")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 99.06 162.5599 0)
 			(effects
 				(font
@@ -19914,7 +19914,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -19930,7 +19930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccfa85f4-f204-4367-802c-84b23a88ba34")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 95.25 35.5599 0)
 			(effects
 				(font
@@ -19984,7 +19984,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -20000,7 +20000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd93eedb-2815-42ab-994f-192d40203311")
-		(property "Reference" "J14"
+		(property "Reference" "J6"
 			(at 18.288 176.276 0)
 			(effects
 				(font
@@ -20058,7 +20058,7 @@
 		(instances
 			(project ""
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "J14")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -20074,7 +20074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d04993e1-67b3-4505-93bd-15502ec6469a")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 51.562 95.25 0)
 			(effects
 				(font
@@ -20128,7 +20128,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -20143,7 +20143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d258df5b-2c71-4eac-80aa-fb568791e6b7")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 224.282 81.28 0)
 			(effects
 				(font
@@ -20197,7 +20197,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -20213,7 +20213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9f2592a-240c-4026-8908-73d4d1a1da74")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR019"
 			(at 59.69 48.26 0)
 			(effects
 				(font
@@ -20263,7 +20263,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR056")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -20279,7 +20279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9f41f54-2956-4257-b57c-b39e1b1ea256")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -20329,7 +20329,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -20414,7 +20414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e33730d6-d79e-4fff-97ef-64b11385fdec")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR053"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -20464,7 +20464,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR08")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -20479,7 +20479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e48e199e-02a3-416e-b2f2-297dbc80d5b8")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 137.16 45.72 0)
 			(effects
 				(font
@@ -20529,7 +20529,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20545,7 +20545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6646b1f-d011-4f97-827f-f67db533e782")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR03"
 			(at 21.59 49.53 0)
 			(effects
 				(font
@@ -20595,7 +20595,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR064")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20682,7 +20682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ead78d14-34ab-41f1-9dd0-e98176272cce")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR070"
 			(at 238.76 161.29 0)
 			(effects
 				(font
@@ -20732,7 +20732,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR059")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -20747,7 +20747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb8b5656-084f-4d19-934c-7face55bfe2b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR011"
 			(at 34.29 189.23 0)
 			(effects
 				(font
@@ -20797,7 +20797,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR033")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -20813,7 +20813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f202b38c-d0af-49ac-aa82-8d4183b7b37b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR023"
 			(at 88.9 30.48 0)
 			(effects
 				(font
@@ -20863,7 +20863,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR058")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -20879,7 +20879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f26ca5c4-62f2-49ea-993b-a6b275baeee3")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR022"
 			(at 73.66 185.42 0)
 			(effects
 				(font
@@ -20929,7 +20929,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR043")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -20945,7 +20945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f57452ed-f123-40b7-b171-cf662bfe35fb")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 21.59 30.48 0)
 			(effects
 				(font
@@ -20995,7 +20995,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR010")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -21011,7 +21011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a1c7dd-3c21-4f2c-b052-9a591e2902e8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 41.91 52.07 0)
 			(effects
 				(font
@@ -21061,7 +21061,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -21077,7 +21077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f70ab5f1-c743-4d9b-9f5f-464b0e3c5635")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR075"
 			(at 255.27 139.7 0)
 			(effects
 				(font
@@ -21127,7 +21127,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR067")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -21211,7 +21211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8f01f4d-d57a-4748-a65c-d599883839bd")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR060"
 			(at 203.2 44.45 0)
 			(effects
 				(font
@@ -21261,7 +21261,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR09")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -21277,7 +21277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa2ab344-8099-4972-961b-eedf9120a89b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR041"
 			(at 156.21 167.64 0)
 			(effects
 				(font
@@ -21327,7 +21327,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR022")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -21343,7 +21343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1f10dd-13ef-44da-9c49-ee88d83a18cb")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR040"
 			(at 149.86 147.32 0)
 			(effects
 				(font
@@ -21393,7 +21393,7 @@
 		(instances
 			(project "charging_controller"
 				(path "/143b82bb-9b03-4bd9-891e-58444422cf68"
-					(reference "#PWR017")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

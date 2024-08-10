@@ -1,0 +1,165 @@
+(footprint "Quickie IDC 2x2 pin 2.54mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 -5.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2767910f-ba69-4a22-8037-6c0f92f16fe8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Quickie IDC 2x2 pin 2.54mm"
+		(at 0 6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec878e31-e165-4c9e-80aa-18c80c939d9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70678c55-7bf5-481b-94cc-0e292b5ca1c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fefd7910-7216-4783-b26a-de6ee4f6ea18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac82d4a7-cc54-42d9-838e-30ac0500760b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 3.7)
+		(end 2.5 3.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "332175f4-636d-4859-aaf3-54399404a156")
+	)
+	(fp_line
+		(start -2.5 4.7)
+		(end -2.5 3.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "442e4c1b-80f3-40d8-a791-3f442b36421d")
+	)
+	(fp_line
+		(start 2.5 3.7)
+		(end 2.5 4.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "406c0619-0318-44d8-b139-00e8ef33db6a")
+	)
+	(fp_rect
+		(start -6.25 -4.7)
+		(end 6.25 4.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0a28c629-9b1c-471d-99b3-0c45c85a992e")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9a12fdc1-b3c9-4427-bd17-d58fe6c8747c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6934c7f6-c4d6-4e50-887f-65f550333cdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 1.27)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c4e0c4f-f7cf-45b1-95ba-21e8da6e2831")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 -1.27)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask" "B.Adhes")
+		(remove_unused_layers no)
+		(uuid "15e930b6-4f1e-4e11-b60b-6dc4c8ed8cbc")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 1.27)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask" "B.Adhes")
+		(remove_unused_layers no)
+		(uuid "9e529f49-cb99-4a48-b971-f102e304516a")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask" "B.Adhes")
+		(remove_unused_layers no)
+		(uuid "afe9242f-e0b4-4a3b-9643-f328c2446b0a")
+	)
+)

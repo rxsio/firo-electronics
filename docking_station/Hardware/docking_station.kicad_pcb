@@ -6958,7 +6958,7 @@
 		(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf")
 		(tags "RC Connector XT60")
 		(property "Reference" "J4"
-			(at -3.6 -16.5 -90)
+			(at -3.6 -16.5 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "52dad9eb-8c31-494a-a099-2de087563b32")
@@ -6970,7 +6970,7 @@
 			)
 		)
 		(property "Value" "XT60"
-			(at -3.6 4 -90)
+			(at -3.6 4 90)
 			(layer "F.Fab")
 			(uuid "9bdc5c3e-4420-470f-90b8-6fe8cb589ae6")
 			(effects
@@ -7258,30 +7258,8 @@
 			(layer "F.Fab")
 			(uuid "ba94bc2f-ca18-4ed8-a2fb-a63d9935281b")
 		)
-		(fp_text user "-"
-			(at -0.7 3.05 -90)
-			(layer "F.SilkS")
-			(uuid "2f3f72be-aaeb-4877-9483-62e3de7021e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "+"
-			(at -6.3 3.15 -90)
-			(layer "F.SilkS")
-			(uuid "7a229419-aaaf-4fa3-a610-d2f00f0d8583")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
-			(at -3.6 -3.6 -90)
+			(at -3.6 -3.6 90)
 			(layer "F.Fab")
 			(uuid "b33275a8-e3aa-48f0-8ebb-8fd3bbc5beac")
 			(effects
@@ -25125,6 +25103,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CHECK SUPPLY POLARITY"
+		(at 152.527 124.333 0)
+		(layer "F.SilkS" knockout)
+		(uuid "19c152eb-6bb2-45bd-8b12-0265b717b7c1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "T PROBE"
 		(at 158.5 105.3 0)
 		(layer "F.SilkS" knockout)
@@ -25210,7 +25201,7 @@
 		)
 	)
 	(gr_text "SUPPLY-"
-		(at 181.2 123.3 0)
+		(at 181.737 123.3 0)
 		(layer "F.SilkS")
 		(uuid "80833e43-730e-4bf6-8665-64b161ecfbc0")
 		(effects
@@ -25241,6 +25232,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PAD CONNECTOR"
+		(at 182.710664 109.428933 90)
+		(layer "F.SilkS" knockout)
+		(uuid "958797a1-9e42-4da8-ab21-2523aa9758f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)

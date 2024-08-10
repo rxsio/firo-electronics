@@ -2342,6 +2342,296 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start 0.762 0.254)
+					(mid 0 0.5696)
+					(end -0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start 0.762 1.0196)
+					(mid 0 1.2729)
+					(end -0.762 1.0196)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -2920,6 +3210,18 @@
 		(uuid "20974262-3fa9-4f6b-bf28-ba5e35f268f8")
 	)
 	(junction
+		(at 125.73 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2147e160-6fdb-4327-9591-3576a3c87988")
+	)
+	(junction
+		(at 124.46 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25153372-9820-4aa7-83bb-a0adf7eaf118")
+	)
+	(junction
 		(at 99.06 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2936,6 +3238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fabb554-9c22-4008-b3c7-1bce4f11a373")
+	)
+	(junction
+		(at 127 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8be09a3e-65c2-4a4d-a381-492a719d44a1")
 	)
 	(junction
 		(at 160.02 106.68)
@@ -3001,6 +3309,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056a291d-808d-494e-b0bc-49b58abae356")
+	)
+	(wire
+		(pts
 			(xy 177.8 91.44) (xy 170.18 91.44)
 		)
 		(stroke
@@ -3018,6 +3336,16 @@
 			(type default)
 		)
 		(uuid "06d9758d-30bb-430f-a504-6bda709151ba")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 127 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b0d07c-f8da-4ece-bbfa-8ee3c10c60d2")
 	)
 	(wire
 		(pts
@@ -3068,6 +3396,16 @@
 			(type default)
 		)
 		(uuid "1a8aac82-5b7d-4f55-be17-f316f687c397")
+	)
+	(wire
+		(pts
+			(xy 125.73 115.57) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5361cf-5da8-4645-bd5b-2acaab7e9078")
 	)
 	(wire
 		(pts
@@ -3151,16 +3489,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 101.6 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bbbe808-5344-4cb9-b5a2-2d06656086f8")
-	)
-	(wire
-		(pts
 			(xy 90.17 57.15) (xy 93.98 57.15)
 		)
 		(stroke
@@ -3168,6 +3496,16 @@
 			(type default)
 		)
 		(uuid "461b0019-4149-4522-bca7-3fbf9b160ec6")
+	)
+	(wire
+		(pts
+			(xy 124.46 115.57) (xy 125.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484ad4af-a765-481f-aad4-4fb0c442adf6")
 	)
 	(wire
 		(pts
@@ -3191,13 +3529,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 104.14) (xy 121.92 99.06)
+			(xy 121.92 99.06) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51bb4e1f-b13c-4630-9eda-4bcbafac8b60")
+		(uuid "4effa3a2-a515-4715-8727-a73d79f02a7d")
 	)
 	(wire
 		(pts
@@ -3421,6 +3759,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 99.06) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e40d59a-8d04-442a-a8c1-94a94e510485")
+	)
+	(wire
+		(pts
+			(xy 127 115.57) (xy 125.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed279a3-bee2-4954-b5e0-dbbec070caf0")
+	)
+	(wire
+		(pts
 			(xy 160.02 91.44) (xy 157.48 91.44)
 		)
 		(stroke
@@ -3428,6 +3786,16 @@
 			(type default)
 		)
 		(uuid "92a01a43-4198-4705-8935-5e470b6678d4")
+	)
+	(wire
+		(pts
+			(xy 121.92 104.14) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946f21b7-5bcb-4660-a637-9c845b6345d1")
 	)
 	(wire
 		(pts
@@ -3458,6 +3826,16 @@
 			(type default)
 		)
 		(uuid "a1d944e9-015c-447b-ad28-4dbfc14a2330")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25041fd-7fcd-4495-99a0-081864a8b3dc")
 	)
 	(wire
 		(pts
@@ -3518,6 +3896,16 @@
 			(type default)
 		)
 		(uuid "b8f19fe6-3a15-4f0e-bf08-b28e746a026f")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad31469-26b8-474e-b836-26fd4986e659")
 	)
 	(wire
 		(pts
@@ -3601,16 +3989,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 121.92 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84a7247-18d0-4849-a7f1-04505102d772")
-	)
-	(wire
-		(pts
 			(xy 119.38 96.52) (xy 119.38 109.22)
 		)
 		(stroke
@@ -3618,6 +3996,16 @@
 			(type default)
 		)
 		(uuid "f463d6bc-9065-44e6-866b-96e687e659ec")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d7803a-8f08-4ea9-9ce4-1cff44a120cf")
 	)
 	(wire
 		(pts
@@ -3679,7 +4067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e8cd57-c11f-40da-aca8-a25cf7000517")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR012"
 			(at 140.97 127 0)
 			(effects
 				(font
@@ -3729,7 +4117,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR02")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3745,7 +4133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "155f99bc-fca0-4ad2-9c25-fd36c5c50caf")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR013"
 			(at 160.02 121.92 0)
 			(effects
 				(font
@@ -3795,7 +4183,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR03")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3811,7 +4199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e1b9c39-649a-4dac-858d-a0fb1f3eaf73")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 104.14 115.57 0)
 			(effects
 				(font
@@ -3861,7 +4249,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3930,6 +4318,72 @@
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d1ec401-757a-428b-b440-5c9b8c308cd6")
+		(property "Reference" "#PWR09"
+			(at 125.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99ad747b-9404-4dbc-abbe-3669d4373ac7")
+		)
+		(instances
+			(project "pad_motor_controller"
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4080,7 +4534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "449b90dd-e32c-4e45-8fea-ff6eb6b7628e")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 84.836 54.102 0)
 			(effects
 				(font
@@ -4136,7 +4590,7 @@
 		(instances
 			(project ""
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4642c0e7-8af0-4273-bff7-299bbe59baad")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 109.22 60.9599 90)
 			(effects
 				(font
@@ -4161,7 +4615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "10V"
 			(at 109.22 63.4999 90)
 			(effects
 				(font
@@ -4206,7 +4660,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4789313c-596e-4fa7-8d4d-31bfce6a8f47")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 184.15 111.76 0)
 			(effects
 				(font
@@ -4339,7 +4793,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a33ba82-f909-4149-92d4-722ff35bcfa1")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 203.2 115.57 0)
 			(effects
 				(font
@@ -4404,7 +4858,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4490,7 +4944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be66fda-20fd-494f-aefc-924f9368f30f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR05"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -4540,7 +4994,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR010")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4556,7 +5010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ee53db4-a1da-41ce-928c-d883a12c0bcb")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR02"
 			(at 83.82 101.6 0)
 			(effects
 				(font
@@ -4606,7 +5060,7 @@
 		(instances
 			(project ""
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR016")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4690,7 +5144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55619e9c-b3a0-4188-829d-daa9317ecec4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 203.2 92.71 0)
 			(effects
 				(font
@@ -4740,7 +5194,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4756,7 +5210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57dff56b-adb5-4364-8a68-f18779611c6b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 185.42 144.78 0)
 			(effects
 				(font
@@ -4806,7 +5260,77 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR013")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58232e5d-02dd-4b09-afc7-a2fa4084520e")
+		(property "Reference" "R2"
+			(at 128.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Current sense (opt)"
+			(at 126.746 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc5721f9-bcf3-48f8-b9f1-34772085c783")
+		)
+		(pin "1"
+			(uuid "7ddead91-47a3-4d75-b83c-c953d2d7a87b")
+		)
+		(instances
+			(project ""
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4822,7 +5346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ea5dfde-c5be-4af8-975b-67aaca14fab3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 91.44 71.12 0)
 			(effects
 				(font
@@ -4872,7 +5396,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4949,6 +5473,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 105.41 99.06 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "825831be-ca06-4a69-ba3c-3a51e355e2d5")
+		(property "Reference" "JP1"
+			(at 105.41 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512c604c-80dd-4fa2-b3b2-bc0c077f44b1")
+		)
+		(pin "2"
+			(uuid "9566eec8-f26b-449b-8b03-0a45431a259e")
+		)
+		(instances
+			(project ""
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 138.43 0)
 		(unit 1)
@@ -4958,7 +5550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "842ffb3f-9d2c-4936-8372-4992f19fc49a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 176.53 144.78 0)
 			(effects
 				(font
@@ -5008,7 +5600,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5023,7 +5615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b856266-8f35-4915-b07a-88abe7265395")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 204.978 93.98 0)
 			(effects
 				(font
@@ -5077,7 +5669,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5093,7 +5685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e94a7a7-5e00-4b52-b798-b5fb5b100eb0")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR08"
 			(at 116.84 123.19 0)
 			(effects
 				(font
@@ -5143,7 +5735,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR018")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5158,7 +5750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "948d1cd8-6c33-4c5a-aef0-7b7ec83e94c5")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 166.37 101.854 0)
 			(effects
 				(font
@@ -5166,7 +5758,7 @@
 				)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "10"
 			(at 166.37 103.886 0)
 			(effects
 				(font
@@ -5210,7 +5802,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9da8dedc-66d0-4fcd-bdfe-5b0e3ae17d96")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 140.97 74.93 0)
 			(effects
 				(font
@@ -5385,7 +5977,7 @@
 		(instances
 			(project ""
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5401,7 +5993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f99a91b-be1f-486a-9e96-4abf7701b4f3")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR01"
 			(at 83.82 91.44 0)
 			(effects
 				(font
@@ -5451,7 +6043,7 @@
 		(instances
 			(project ""
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR017")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5467,7 +6059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e661a4-88c2-4fdd-adae-ab0089dc2ecb")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 95.25 82.55 0)
 			(effects
 				(font
@@ -5561,7 +6153,78 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "J3")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 124.46 113.03 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1c9e2fd-c5f9-4987-8bca-3dd552deb197")
+		(property "Reference" "JP2"
+			(at 123.698 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 123.19 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce502564-c6dc-4149-ac25-0ad9bbcce167")
+		)
+		(pin "2"
+			(uuid "f72b29ec-7a12-490a-a992-afe66e013909")
+		)
+		(instances
+			(project ""
+				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -5577,7 +6240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e1f252-587d-4c63-90e2-1db76f4dbcec")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR03"
 			(at 85.09 71.12 0)
 			(effects
 				(font
@@ -5627,7 +6290,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR08")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5643,7 +6306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf82796-cc03-4583-86e6-6af9b1c87c74")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 101.6 68.5799 0)
 			(effects
 				(font
@@ -5652,7 +6315,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "39k"
 			(at 101.6 71.1199 0)
 			(effects
 				(font
@@ -5661,7 +6324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -5697,7 +6360,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5712,7 +6375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cedc694e-d019-4aa4-841c-1631ba20658c")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 188.976 98.044 0)
 			(effects
 				(font
@@ -5767,7 +6430,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5849,7 +6512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6fa2f01-4a17-4e76-bb48-89b4aed82735")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -5899,7 +6562,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5914,7 +6577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da568fee-093c-441b-8a60-0fda04625319")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR014"
 			(at 167.64 87.63 0)
 			(effects
 				(font
@@ -5964,7 +6627,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "#PWR04")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6058,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "27nF"
 			(at 165.862 96.266 0)
 			(effects
 				(font
@@ -6066,7 +6729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.18 95.25 0)
 			(effects
 				(font
@@ -6118,7 +6781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efe3ebc4-0d3a-419d-81f6-c2b03b3e06cc")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 162.306 112.776 90)
 			(effects
 				(font
@@ -6175,7 +6838,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6191,7 +6854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb496ff3-cae4-4ea6-b3dc-54b0aa4ef21d")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 164.084 85.598 90)
 			(effects
 				(font
@@ -6248,7 +6911,7 @@
 		(instances
 			(project "pad_motor_controller"
 				(path "/3373cab8-3b47-4120-939d-fdf76e587be4"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)

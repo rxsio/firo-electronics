@@ -1,4 +1,4 @@
-23667913420091261
+23673086139233852
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96607,6 +96607,13 @@ Varistor VF
 2
 2
 firo_ID
+F2_med
+
+
+0
+0
+0
+firo_ID
 FIRO2.1 (h=5mm)
 
 
@@ -96676,6 +96683,20 @@ warning graphic
 0
 0
 0
+firo_footprints
+TEConnectivity_RITS_Header_3P_V
+
+
+0
+5
+4
+firo_footprints
+TRACO THN 20WIR
+
+
+0
+6
+6
 firo_footprints
 WAGO 2601-3102
 2601-310
