@@ -254,7 +254,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b5a08072-4250-4bc5-991e-d7cf9c66f3bd")
 	)
-	(model "${KIPRJMOD}/3dmodels/POWERPAK_SO-8DC_VIS.step"
+	(model "${KIPRJMOD}/../../kicad_libs/3dmodels/POWERPAK_SO-8DC_VIS.step"
 		(offset
 			(xyz 0 0 0)
 		)

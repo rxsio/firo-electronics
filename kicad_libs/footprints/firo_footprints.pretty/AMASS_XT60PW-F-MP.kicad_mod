@@ -367,7 +367,7 @@
 		(remove_unused_layers no)
 		(uuid "fb30f9bb-6a0b-4d8a-82b0-266eab794bc6")
 	)
-	(model "${KIPRJMOD}/3dmodels/XT60PW-F.stp"
+	(model "${KIPRJMOD}/../../kicad_libs/3dmodels/XT60PW-F.stp"
 		(offset
 			(xyz -3.6 0 0)
 		)

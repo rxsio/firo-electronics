@@ -489,7 +489,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pad_motor_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
