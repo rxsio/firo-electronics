@@ -11399,7 +11399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.1 177.8 0)
 			(effects
 				(font
@@ -12602,7 +12602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k6"
 			(at 269.24 119.3801 0)
 			(effects
 				(font
@@ -13008,7 +13008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 86.36 90)
 			(effects
 				(font
@@ -14494,7 +14494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "6k8"
 			(at 41.91 126.9999 0)
 			(effects
 				(font
@@ -16004,7 +16004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.1 158.75 0)
 			(effects
 				(font
@@ -17298,7 +17298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "39k"
 			(at 36.83 118.1099 0)
 			(effects
 				(font
@@ -17307,7 +17307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 32.512 116.84 90)
 			(effects
 				(font
@@ -17722,7 +17722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 201.93 59.69 0)
 			(effects
 				(font
@@ -18718,7 +18718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k6"
 			(at 76.2 165.0999 0)
 			(effects
 				(font
@@ -18935,7 +18935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 34.29 125.73 0)
 			(effects
 				(font
@@ -19200,7 +19200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "39k"
 			(at 44.45 44.4499 0)
 			(effects
 				(font
@@ -19869,7 +19869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k6"
 			(at 99.06 165.0999 0)
 			(effects
 				(font
@@ -20362,7 +20362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 49.53 35.56 0)
 			(effects
 				(font
