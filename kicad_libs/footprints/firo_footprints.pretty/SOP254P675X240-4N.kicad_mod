@@ -6,13 +6,13 @@
 	(descr "VOM617A-2X001T")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 2.4 -3.22 0)
+		(at 0 -3 0)
 		(layer "F.SilkS")
 		(uuid "bbd56dfa-4ef8-4087-a0c3-f25de5b8c9fb")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +72,7 @@
 		(start -3.95 -1.945)
 		(end -2.2 -1.945)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -82,7 +82,7 @@
 		(start -1.85 -1.925)
 		(end 1.85 -1.925)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -92,7 +92,7 @@
 		(start -1.85 1.925)
 		(end -1.85 -1.925)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -102,7 +102,7 @@
 		(start 1.85 -1.925)
 		(end 1.85 1.925)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -112,7 +112,7 @@
 		(start 1.85 1.925)
 		(end -1.85 1.925)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
