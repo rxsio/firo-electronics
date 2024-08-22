@@ -1,4 +1,4 @@
-23673107331833582
+23679983920849045
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,27 @@ audio belton reverb
 0
 7
 7
+BLUE_ID
+BLUE_boat
+
+
+0
+0
+0
+BLUE_ID
+BLUE_boat_small
+
+
+0
+0
+0
+BLUE_ID
+BLUE_boat_supersmall
+
+
+0
+0
+0
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -96628,6 +96649,13 @@ firo_footprints
 1
 1
 firo_footprints
+AMASS_MR60-M_1x03_Vertical
+
+
+0
+3
+3
+firo_footprints
 AMASS_XT60PW-F-MP
 Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
 RC Connector XT60
@@ -96646,8 +96674,8 @@ MeanWell NID100-R3
 
 
 0
-0
-0
+13
+13
 firo_footprints
 PowerPAK_SO-8DC for VISHAY SIDR392DP-T1-GE3
 PowerPAK SO-8 Single (https://www.vishay.com/docs/71655/powerpak.pdf, https://www.vishay.com/docs/72599/72599.pdf)
