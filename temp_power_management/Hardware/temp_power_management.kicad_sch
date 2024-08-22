@@ -10098,6 +10098,17 @@
 		)
 		(uuid "0c695048-19be-4d64-baa4-3afd83da6765")
 	)
+	(text "tutaj dioda idealna!!!"
+		(exclude_from_sim no)
+		(at 80.01 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 121 83 1)
+			)
+		)
+		(uuid "0e7aaa9b-61a8-488f-bfab-2a27f71edfb6")
+	)
 	(text "BOOT0 jumper"
 		(exclude_from_sim no)
 		(at 231.902 145.034 0)
