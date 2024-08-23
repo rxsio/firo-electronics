@@ -249,7 +249,7 @@
 		(remove_unused_layers no)
 		(uuid "46be359e-0d6b-4730-b949-aa7ebf53d962")
 	)
-	(model "${KIPRJMOD}/3dmodels/e_R40N-2.STEP"
+	(model "${KIPRJMOD}/../../kicad_libs/3dmodels/e_R40N-2.STEP"
 		(offset
 			(xyz -20 13.5 20.4)
 		)

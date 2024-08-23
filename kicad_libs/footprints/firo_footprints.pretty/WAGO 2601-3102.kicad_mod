@@ -300,7 +300,7 @@
 		(remove_unused_layers no)
 		(uuid "e9ba539d-adfe-47dc-b639-9eef9b445dd3")
 	)
-	(model "${KIPRJMOD}/3dmodels/WAGO 2pin.stp"
+	(model "${KIPRJMOD}/../../kicad_libs/3dmodels/WAGO 2pin.stp"
 		(offset
 			(xyz 4.5 0 0)
 		)

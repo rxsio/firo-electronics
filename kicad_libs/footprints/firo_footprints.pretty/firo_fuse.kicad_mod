@@ -139,7 +139,7 @@
 		(remove_unused_layers no)
 		(uuid "9904ba95-adad-424a-aa0e-9e3ba1dee85d")
 	)
-	(model "${KIPRJMOD}/3dmodels/FUSE.STEP"
+	(model "${KIPRJMOD}/../../kicad_libs/3dmodels/FUSE.STEP"
 		(offset
 			(xyz -11 -4.8 0)
 		)
