@@ -1,3 +1,4 @@
+
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
@@ -120,6 +121,7 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
   /* USER CODE BEGIN ADC1_MspInit 1 */
 
   /* USER CODE END ADC1_MspInit 1 */
+
   }
 
 }
@@ -193,6 +195,7 @@ void HAL_CAN_MspInit(CAN_HandleTypeDef* hcan)
   /* USER CODE BEGIN CAN1_MspInit 1 */
 
   /* USER CODE END CAN1_MspInit 1 */
+
   }
 
 }
@@ -289,13 +292,12 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* htim)
 
     __HAL_RCC_GPIOB_CLK_ENABLE();
     /**TIM4 GPIO Configuration
-    PB8     ------> TIM4_CH3
-    PB9     ------> TIM4_CH4
+    PB7     ------> TIM4_CH2
     */
-    GPIO_InitStruct.Pin = MOTOR_DEPLOY_Pin|MOTOR_RETRACT_Pin;
+    GPIO_InitStruct.Pin = MOTOR_PWM_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+    HAL_GPIO_Init(MOTOR_PWM_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN TIM4_MspPostInit 1 */
 
