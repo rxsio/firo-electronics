@@ -79,8 +79,8 @@ void Error_Handler(void);
 #define MOTOR_PWM_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-#define MOTOR_DEPLOY_Channel TIM_CHANNEL_3
-#define MOTOR_RETRACT_Channel TIM_CHANNEL_4
+#define MOTOR_PWM_TIM htim4
+#define MOTOR_PWM_Channel TIM_CHANNEL_2
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
