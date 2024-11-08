@@ -11,3 +11,13 @@ fp-info-cache
 # Lock Files
 *.kicad_sch.lck
 *.kicad_pcb.lck
+
+# STM32CubeIDE
+*.ld
+.mxproject
+## Standard eclipse gitignore
+.metadata
+.settings
+[Rr]elease
+[Dd]ebug
+*.launch
