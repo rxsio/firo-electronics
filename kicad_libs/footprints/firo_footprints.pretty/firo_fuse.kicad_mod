@@ -1,0 +1,153 @@
+(footprint "firo_fuse"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "93c3954f-73ec-43a9-b0ca-128630e6fe9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "firo_fuse"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f64f5d26-0a86-465e-8510-9ce9344439dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8198d0fc-2ade-4d04-95bd-d7eaba5e17ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d111e89e-952c-4a01-9383-d60c924d5574")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c00718d2-5fcc-4741-8bc4-b95d34502a4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11.25 -4.8)
+		(end 11.25 -4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4be15384-6926-4dee-b233-2346417c0097")
+	)
+	(fp_line
+		(start 11.25 4.8)
+		(end -11.25 4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ced4167-cca4-44fa-a1b0-473220dccb2a")
+	)
+	(fp_rect
+		(start -11.25 -4.8)
+		(end 11.25 4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5494ea85-d4dc-4e5f-9a12-f30d987bb60b")
+	)
+	(fp_text user "FUSE"
+		(at -2 -4.94 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "39c30015-afe1-4a5a-a582-6ead2092b3db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f5cf74f-cfae-461b-94c3-4d5d42e7582b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -11.25 0)
+		(size 5 5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "023b359f-dfb4-4cbc-8992-123b2fc3bd8d")
+	)
+	(pad "2" thru_hole circle
+		(at 11.25 0)
+		(size 5 5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9904ba95-adad-424a-aa0e-9e3ba1dee85d")
+	)
+	(model "${KIPRJMOD}/../../kicad_libs/3dmodels/FUSE.STEP"
+		(offset
+			(xyz -11 -4.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

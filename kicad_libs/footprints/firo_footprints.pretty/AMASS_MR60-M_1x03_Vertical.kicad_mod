@@ -1,0 +1,184 @@
+(footprint "AMASS_MR60-M_1x03_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.5 -5.6 180)
+		(layer "F.SilkS")
+		(uuid "25e5feb6-00e8-4047-83ed-41b59ed470e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MR60_butchered"
+		(at 5.5 5.5 180)
+		(layer "F.Fab")
+		(uuid "079d90a0-986e-4e97-a27a-994ef3232d73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33f6ee30-9e00-41f0-89fa-7e0cff12e59c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "928c6118-7bce-484c-8d40-e1cd8474ac3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1 7.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a642fba-f3c3-47d7-9b05-f11ca54ce7c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 4.6)
+		(end 11 4.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35d2c611-7fa7-4513-b172-83999be9b19a")
+	)
+	(fp_line
+		(start 11 -4.6)
+		(end 0 -4.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a44be856-50d9-4f65-990b-4fa65aa5eeb9")
+	)
+	(fp_arc
+		(start 0 4.6)
+		(mid -4.6 0)
+		(end 0 -4.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e030e127-3ffd-4dda-a8ef-d6db556c5d9c")
+	)
+	(fp_arc
+		(start 11 -4.6)
+		(mid 14.252691 -3.252691)
+		(end 15.6 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c05a71b4-4fec-4cb5-8d3d-79f5c69e9481")
+	)
+	(fp_arc
+		(start 15.6 0)
+		(mid 14.252691 3.252691)
+		(end 11 4.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e142505-eadc-42e4-ad0e-776ad6741f68")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 0 -4.6)
+				(mid -4.6 0)
+				(end 0 4.6)
+			)
+			(arc
+				(start 11 4.6)
+				(mid 14.252691 3.252691)
+				(end 15.6 0)
+			)
+			(arc
+				(start 15.6 0)
+				(mid 14.252691 -3.252691)
+				(end 11 -4.6)
+			)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0920267f-312b-47a1-a0b8-5843e1c98839")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 5 8)
+		(drill 4.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(uuid "1c7fa3c7-1b49-42e9-84ea-c37931164b60")
+	)
+	(pad "2" thru_hole roundrect
+		(at 5.5 0 90)
+		(size 8 5)
+		(drill 4.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "494c37a9-60c3-4da0-84e5-1b00a1d5208f")
+	)
+	(pad "3" thru_hole roundrect
+		(at 11 0)
+		(size 5 8)
+		(drill 4.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "165e007c-8da5-4cb9-a80c-5cff03fda250")
+	)
+	(model "${KIPRJMOD}/3dmodels/Amass_MR60_Male.STEP"
+		(offset
+			(xyz 5.5 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
