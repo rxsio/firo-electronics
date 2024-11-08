@@ -1,0 +1,13 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.bak
+*-backups
+*.kicad_prl
+fp-info-cache
+\#auto_saved_files#
+
+# Lock Files
+*.kicad_sch.lck
+*.kicad_pcb.lck
