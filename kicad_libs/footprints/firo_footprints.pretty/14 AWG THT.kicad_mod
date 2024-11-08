@@ -1,0 +1,90 @@
+(footprint "14 AWG THT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.04 3.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7be6202a-411f-442b-bc64-027980e1433b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "14 AWG THT"
+		(at -0.04 4.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8c59d6cb-3477-4b00-8dab-48edb40713e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.04 3.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25d8991b-5924-402e-b8df-88acbb897e39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.04 3.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b03ea64-5371-4b68-ad76-c5bdb18f8d60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.04 3.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30b3b63c-4536-4c18-b1ae-c022a2e9f658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at -0.04 6.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "837e0dd4-0cc1-44b4-af2f-99561ef76e42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27106123-69a4-42d2-895a-6b8e78f9e2c3")
+	)
+)
