@@ -37,10 +37,8 @@
 #define VREFANALOG_VOLTAGE 3300        // Reference voltage in mV (3.3V)
 #define ADC_RESOLUTION 4096            // 12-bit ADC resolution
 #define TEMPERATURE_TRESHOLD 65
-#define HALL_ACTIVE GPIO_PIN_RESET
-#define HALL_INACTIVE GPIO_PIN_SET
-#define SENSE_CHARGING GPIO_PIN_RESET
-#define SENSE_NOT_CHARGING GPIO_PIN_SET
+#define SENSE_CHARGING GPIO_PIN_SET
+#define SENSE_NOT_CHARGING GPIO_PIN_RESET
 #define BATTERY_CONNECTED GPIO_PIN_SET
 #define BATTERY_DISCONNECTED GPIO_PIN_RESET
 /* USER CODE END PD */
@@ -58,16 +56,14 @@ CAN_HandleTypeDef hcan;
 
 TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim3;
-TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
 
 // TIM2 is used for user timeouts in SetTimeout and ClearTimeout
 // TIM3 is used for ADC sampling
-// TIM4 is used for motor control
 
 // Hardcoded can node id for this device
-const uint8_t NODE_ID = 0x30;
+const uint8_t NODE_ID = 0x60;
 
 /**
  * @brief CAN command and response IDs
@@ -75,42 +71,20 @@ const uint8_t NODE_ID = 0x30;
  * These enums represent the command and response IDs used in data field in CAN communication.
  */
 typedef enum {
-    CAN_CMD_DEPLOY_PROBE           = 0x01,
-    CAN_CMD_ATTEMPT_CHARGING       = 0x02,
-    CAN_CMD_STOP_CHARGING          = 0x03,
-    CAN_CMD_RETRACT_PROBE          = 0x04,
+    CAN_CMD_ATTEMPT_CHARGING       = 0x00,
+    CAN_CMD_STOP_CHARGING          = 0x01,
 
-    // Responses are assigned IDs from upper half of the byte 
+    // Responses are assigned IDs from upper half of the command IDs range 
     // although there is no particular benefit or reason behind this
-    CAN_RESP_DEPLOY_SUCCESS        = 0x81,
-    CAN_RESP_DEPLOY_FAIL           = 0x82,
-    CAN_RESP_RETRACT_SUCCESS       = 0x83,
-    CAN_RESP_RETRACT_FAIL          = 0x84,
-    CAN_RESP_CHARGING_SUCCESS      = 0x85,
-    CAN_RESP_CHARGING_FAIL         = 0x86,
-    CAN_RESP_BUS_OFF_RECOVERY      = 0x87,
-    CAN_RESP_OVERHEATED			       = 0x88,
-    CAN_RESP_OVERHEAT_RECOVERY	   = 0x89,
-    CAN_RESP_FATAL_ERROR_RECOVERY  = 0x8A,
-    CAN_RESP_STATUS     		       = 0x8B,
+    CAN_RESP_CHARGING_SUCCESS      = 0x08,
+    CAN_RESP_CHARGING_FAIL         = 0x09,
+    CAN_RESP_BUS_OFF_RECOVERY      = 0x0A,
+    CAN_RESP_OVERHEATED			       = 0x0B,
+    CAN_RESP_OVERHEAT_RECOVERY	   = 0x0C,
+    CAN_RESP_FATAL_ERROR_RECOVERY  = 0x0D,
+    CAN_RESP_STATUS     		       = 0x0F
 
 } CAN_CommandID;
-
-// Predefined CAN header used in all response messages except temperature response
-const CAN_TxHeaderTypeDef TxHeader = {
-    .IDE = CAN_ID_STD,
-    .StdId = NODE_ID,  // Using the standard node ID for all messages
-    .RTR = CAN_RTR_DATA,  // Data frame
-    .DLC = 1             // Data length is 1 byte
-};
-
-// Predefined CAN header used in temperature response
-const CAN_TxHeaderTypeDef TxStatusHeader = {
-    .IDE = CAN_ID_STD,
-    .StdId = NODE_ID,  // Using the standard node ID for all messages
-    .RTR = CAN_RTR_DATA,  // Data frame
-    .DLC = 3             // Data length is 2 byte (1 byte temp + 1 byte charge_sense)
-};
 
 // CAN Header buffer for received CAN commands
 // Consider moving this to HAL_CAN_RxFifo0MsgPendingCallback
@@ -147,7 +121,6 @@ static void MX_DMA_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_CAN_Init(void);
 static void MX_TIM2_Init(void);
-static void MX_TIM4_Init(void);
 static void MX_TIM3_Init(void);
 /* USER CODE BEGIN PFP */
 void DMA_TransferCompleteCallback(DMA_HandleTypeDef *hdma);
@@ -163,11 +136,6 @@ void ChargingCheckTimeout();
 void CompleteChargingSequence();
 void DisconnectBattery();
 
-void DeployProbe();
-void DeployTimeout();
-
-void RetractProbe();
-void RetractTimeout();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -208,7 +176,6 @@ int main(void)
   MX_ADC1_Init();
   MX_CAN_Init();
   MX_TIM2_Init();
-  MX_TIM4_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 
@@ -232,10 +199,10 @@ int main(void)
   // The right 5 bits can be set to 0 since they are used for extended 29-bit IDs, except for the RTR bit.
   // The RTR (Remote Transmission Request) bit can be set by appending | 0x10.
   // RTR messages are used to request temperature
-  canfilterconfig.FilterIdHigh = NODE_ID << 5;  // 1st 11-bit ID
-  canfilterconfig.FilterIdLow = NODE_ID << 5;  // 2nd 11-bit ID
-  canfilterconfig.FilterMaskIdHigh = NODE_ID << 5;  // 3rd 11-bit ID
-  canfilterconfig.FilterMaskIdLow = (NODE_ID << 5) | 0x10;  // 4th 11-bit ID
+  canfilterconfig.FilterIdHigh = (NODE_ID + (CAN_CMD_ATTEMPT_CHARGING << 7)) << 5;  // 1st 11-bit ID
+  canfilterconfig.FilterIdLow = (NODE_ID + (CAN_CMD_STOP_CHARGING << 7)) << 5;  // 2nd 11-bit ID
+  canfilterconfig.FilterMaskIdHigh = ((NODE_ID + (CAN_RESP_STATUS << 7)) << 5) | 0x10;  // 3rd 11-bit ID
+  canfilterconfig.FilterMaskIdLow = (NODE_ID + (CAN_CMD_ATTEMPT_CHARGING << 7)) << 5;  // 4th 11-bit ID - not used
 
   HAL_CAN_ConfigFilter(&hcan, &canfilterconfig);
 
@@ -257,14 +224,11 @@ int main(void)
     Error_Handler();
   }
   HAL_CAN_Start(&hcan);
+
   // Checks if the reset was caused by a software reset (fatal error recovery)
   if (__HAL_RCC_GET_FLAG(RCC_FLAG_SFTRST)) {
     // Inform the user about the fatal error
     SendCanMessage(CAN_RESP_FATAL_ERROR_RECOVERY);
-  } else {
-    // In case of fatal error, let the user decide If it is safe to continue operation
-    // In case of normal restart, retract the probes
-    RetractProbe();
   }
   // Clear the reset flags
   __HAL_RCC_CLEAR_RESET_FLAGS();
@@ -506,65 +470,6 @@ static void MX_TIM3_Init(void)
 }
 
 /**
-  * @brief TIM4 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_TIM4_Init(void)
-{
-
-  /* USER CODE BEGIN TIM4_Init 0 */
-
-  /* USER CODE END TIM4_Init 0 */
-
-  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
-  TIM_MasterConfigTypeDef sMasterConfig = {0};
-  TIM_OC_InitTypeDef sConfigOC = {0};
-
-  /* USER CODE BEGIN TIM4_Init 1 */
-
-  /* USER CODE END TIM4_Init 1 */
-  htim4.Instance = TIM4;
-  htim4.Init.Prescaler = 0;
-  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim4.Init.Period = 332;
-  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
-  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
-  if (HAL_TIM_ConfigClockSource(&htim4, &sClockSourceConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_TIM_PWM_Init(&htim4) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
-  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
-  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 93;
-  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
-  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
-  if (HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN TIM4_Init 2 */
-
-  /* USER CODE END TIM4_Init 2 */
-  HAL_TIM_MspPostInit(&htim4);
-
-}
-
-/**
   * Enable DMA controller clock
   */
 static void MX_DMA_Init(void)
@@ -596,17 +501,17 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, MOTOR_RETRACT_Pin|MOTOR_DEPLOY_Pin|CHARGE_PULSE_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(CHARGE_PULSE_GPIO_Port, CHARGE_PULSE_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(BATTERY_CUTOFF_GPIO_Port, BATTERY_CUTOFF_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : MOTOR_RETRACT_Pin MOTOR_DEPLOY_Pin CHARGE_PULSE_Pin */
-  GPIO_InitStruct.Pin = MOTOR_RETRACT_Pin|MOTOR_DEPLOY_Pin|CHARGE_PULSE_Pin;
+  /*Configure GPIO pin : CHARGE_PULSE_Pin */
+  GPIO_InitStruct.Pin = CHARGE_PULSE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init(CHARGE_PULSE_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : BATTERY_CUTOFF_Pin */
   GPIO_InitStruct.Pin = BATTERY_CUTOFF_Pin;
@@ -620,22 +525,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(CHARGE_SENSE_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : PROBE_RETRACTED_Pin */
-  GPIO_InitStruct.Pin = PROBE_RETRACTED_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(PROBE_RETRACTED_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : PROBE_EXTENDED_Pin */
-  GPIO_InitStruct.Pin = PROBE_EXTENDED_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(PROBE_EXTENDED_GPIO_Port, &GPIO_InitStruct);
-
-  /* EXTI interrupt init*/
-  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
@@ -658,36 +547,34 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
   }
   if(RxHeader.RTR == CAN_RTR_REMOTE){
     // Receiver request for temperature measurement
-	  uint32_t TxMailbox;
     
     uint8_t charging = 0x00;
     if(HAL_GPIO_ReadPin(CHARGE_SENSE_GPIO_Port, CHARGE_SENSE_Pin) == SENSE_CHARGING){
       charging = 0xFF;
     }
     
-	  uint8_t TxData[3] = {CAN_RESP_STATUS,*(uint8_t *) &temperature, charging};
-	  HAL_CAN_AddTxMessage(hcan, &TxStatusHeader, TxData, &TxMailbox);
+	  uint32_t TxMailbox;
+	  uint8_t TxData[2] = {*(uint8_t *) &temperature, charging};
+    const CAN_TxHeaderTypeDef TxHeader = {
+      .IDE = CAN_ID_STD,
+      .StdId = NODE_ID + (CAN_RESP_STATUS << 7),  
+      .RTR = CAN_RTR_DATA,  
+      .DLC = 2             
+    };
+	  HAL_CAN_AddTxMessage(hcan, &TxHeader, TxData, &TxMailbox);
 	  return;
   }
   if(OVERHEAT){
     // Ignore commands if the device is overheated
 	  return;
   }
-  switch (RxData[0]) {
-      case CAN_CMD_DEPLOY_PROBE:
-          DeployProbe();
-          break;
-
+  switch (RxHeader.StdId >> 7) {
       case CAN_CMD_ATTEMPT_CHARGING:
     	  StartChargingSequence();
          break;
       case CAN_CMD_STOP_CHARGING:
     	  DisconnectBattery();
     	  break;
-      case CAN_CMD_RETRACT_PROBE:
-        RetractProbe();
-        break;
-
       default:
           // Unknown command
           break;
@@ -715,13 +602,7 @@ void HAL_CAN_ErrorCallback(CAN_HandleTypeDef *hcan) {
         HAL_CAN_AbortTxRequest(hcan, CAN_TX_MAILBOX1);
         HAL_CAN_AbortTxRequest(hcan, CAN_TX_MAILBOX2);
 
-        if (HAL_GPIO_ReadPin(PROBE_RETRACTED_GPIO_Port, PROBE_EXTENDED_Pin) != HALL_ACTIVE) {
-            RetractProbe();
-            // Recovery message will be send after successful or unsuccessful probe retraction
-        } else {
-          // Set a timeout for recovery in case the probe is already retracted
-          SetTimeout(RecoveryTimeout, 500);
-        }
+        SetTimeout(RecoveryTimeout, 500);
     }
 
     // Todo: Are there any other errors we have to handle?
@@ -750,24 +631,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     }
 }
 
-/**
- * Stop motor after probe sensor intterupt.
- */
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-    if (GPIO_Pin == PROBE_EXTENDED_Pin) {
-        HAL_TIM_PWM_Stop(&MOTOR_PWM_TIM, MOTOR_PWM_Channel);
-        HAL_GPIO_WritePin(MOTOR_DEPLOY_GPIO_Port, MOTOR_DEPLOY_Pin, GPIO_PIN_RESET);
-        ClearTimeout(DeployTimeout);
-        SendCanMessage(CAN_RESP_DEPLOY_SUCCESS);
-    }
-    if (GPIO_Pin == PROBE_RETRACTED_Pin) {
-        HAL_TIM_PWM_Stop(&MOTOR_PWM_TIM, MOTOR_PWM_Channel);
-        HAL_GPIO_WritePin(MOTOR_RETRACT_GPIO_Port, MOTOR_RETRACT_Pin, GPIO_PIN_RESET);
-        ClearTimeout(RetractTimeout);
-        SendCanMessage(CAN_RESP_RETRACT_SUCCESS);
-    }
-}
-
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
 
@@ -791,7 +654,6 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 	}
 	else if(temperature > TEMPERATURE_TRESHOLD){
 		OVERHEAT = 1;
-		RetractProbe();
 		SendCanMessage(CAN_RESP_OVERHEATED);
 	}
 }
@@ -843,10 +705,22 @@ HAL_StatusTypeDef SendCanMessage(const CAN_CommandID command_id) {
 
     if (!CAN_BUS_OFF) {
       // Add the new message to the transmit mailbox
+      const CAN_TxHeaderTypeDef TxHeader = {
+        .IDE = CAN_ID_STD,
+        .StdId = NODE_ID + (command_id << 7),  
+        .RTR = CAN_RTR_DATA,  
+        .DLC = 0             
+      };
       return HAL_CAN_AddTxMessage(&hcan, &TxHeader, &command_id, &TxMailbox);
     } else {
       // Send recovery message if in error state
       const CAN_CommandID recovery_id = CAN_RESP_BUS_OFF_RECOVERY;
+      const CAN_TxHeaderTypeDef TxHeader = {
+        .IDE = CAN_ID_STD,
+        .StdId = NODE_ID + (recovery_id << 7),  
+        .RTR = CAN_RTR_DATA,  
+        .DLC = 0             
+      };
       return HAL_CAN_AddTxMessage(&hcan, &TxHeader, &recovery_id, &TxMailbox);
     }
 }
@@ -862,27 +736,6 @@ void RecoveryTimeout() {
   SendCanMessage(CAN_RESP_BUS_OFF_RECOVERY);
 }
 
-/**
- * @brief Timeout callback for probe deployment
- * 
- * Stop the motor and send a deploy failure message.
- */
-void DeployTimeout() {
-  HAL_TIM_PWM_Stop(&MOTOR_PWM_TIM, MOTOR_PWM_Channel);
-  HAL_GPIO_WritePin(MOTOR_DEPLOY_GPIO_Port, MOTOR_DEPLOY_Pin, GPIO_PIN_RESET);
-  SendCanMessage(CAN_RESP_DEPLOY_FAIL);
-}
-
-/**
- * @brief Timeout callback for probe retraction
- * 
- * Stop the motor and send a retract failure message.
- */
-void RetractTimeout() {
-  HAL_TIM_PWM_Stop(&MOTOR_PWM_TIM, MOTOR_PWM_Channel);
-  HAL_GPIO_WritePin(MOTOR_RETRACT_GPIO_Port, MOTOR_RETRACT_Pin, GPIO_PIN_RESET);
-  SendCanMessage(CAN_RESP_RETRACT_FAIL);
-}
 
 /**
  * @brief Timeout callback for charging check
@@ -909,58 +762,14 @@ void CompleteChargingSequence() {
 }
 
 /**
- * @brief Deploys the charging probe
- * 
- * Activate the motor to deploy the charging probe. Set a timeout to check the deployment status
- * after 3 seconds. If the probe is already extended, send a success message immediately.
- */
-void DeployProbe() {
-    DisconnectBattery();
-    // Check if the probe is not already extended
-    if (HAL_GPIO_ReadPin(PROBE_EXTENDED_GPIO_Port, PROBE_EXTENDED_Pin) != HALL_ACTIVE) {
-        // We reset the pulse pin in case the probe deployment was requested in the middle of charging sequence
-        HAL_GPIO_WritePin(CHARGE_PULSE_GPIO_Port, CHARGE_PULSE_Pin, GPIO_PIN_RESET);
-        HAL_GPIO_WritePin(MOTOR_DEPLOY_GPIO_Port, MOTOR_DEPLOY_Pin, GPIO_PIN_SET);
-        HAL_GPIO_WritePin(MOTOR_RETRACT_GPIO_Port, MOTOR_RETRACT_Pin, GPIO_PIN_RESET);
-        HAL_TIM_PWM_Start(&MOTOR_PWM_TIM, MOTOR_PWM_Channel);
-    SetTimeout(DeployTimeout, 3000);
-    } else {
-        SendCanMessage(CAN_RESP_DEPLOY_SUCCESS);
-    }
-}
-
-/**
- * @brief Retracts the charging probe
- * 
- * Activate the motor to retract the charging probe. Set a timeout to check the retraction status
- * after 3 seconds. If the probe is already retracted, send a success message immediately.
- */
-void RetractProbe() {
-    DisconnectBattery();
-    // Check if the probe is not already retracted
-    if (HAL_GPIO_ReadPin(PROBE_RETRACTED_GPIO_Port, PROBE_RETRACTED_Pin) != HALL_ACTIVE) {
-        // We reset the pulse pin in case the probe deployment was requested in the middle of charging sequence
-        HAL_GPIO_WritePin(CHARGE_PULSE_GPIO_Port, CHARGE_PULSE_Pin, GPIO_PIN_RESET);
-        HAL_GPIO_WritePin(MOTOR_DEPLOY_GPIO_Port, MOTOR_DEPLOY_Pin, GPIO_PIN_RESET);
-        HAL_GPIO_WritePin(MOTOR_RETRACT_GPIO_Port, MOTOR_RETRACT_Pin, GPIO_PIN_SET);
-        HAL_TIM_PWM_Start(&MOTOR_PWM_TIM, MOTOR_PWM_Channel);
-        SetTimeout(RetractTimeout, 3000);
-    } else {
-        SendCanMessage(CAN_RESP_RETRACT_SUCCESS);
-    }
-}
-
-/**
  * @brief Starts the charging sequence
  * 
  * Set the pulse pin to initiate charging and start a timeout to complete the charging sequence
  * after 400 milliseconds.
  */
 void StartChargingSequence() {
-  HAL_GPIO_WritePin(CHARGE_PULSE_GPIO_Port, CHARGE_PULSE_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(CHARGE_PULSE_GPIO_Port, CHARGE_PULSE_Pin, GPIO_PIN_SET);
   DisconnectBattery();
-  // We stop motors in case the charging sequence was requested in the middle of another operation (i.e probe deployment)
-  HAL_TIM_PWM_Stop(&MOTOR_PWM_TIM, MOTOR_PWM_Channel);
   SetTimeout(CompleteChargingSequence, 300);
 }
 
@@ -980,8 +789,7 @@ void Error_Handler(void)
     // Disable interrupts to prevent any further operation
     __disable_irq();
 
-    // 1. Disable motor and pulse pin
-    HAL_TIM_PWM_Stop(&MOTOR_PWM_TIM, MOTOR_PWM_Channel);
+    // 1. Disable pulse pin
     HAL_GPIO_WritePin(CHARGE_PULSE_GPIO_Port, CHARGE_PULSE_Pin, GPIO_PIN_RESET); 
     // 2. Reset the system immediately as a last resort to recover from unhandled or fatal errors
     HAL_NVIC_SystemReset();

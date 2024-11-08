@@ -49,8 +49,6 @@ extern "C" {
 
 /* USER CODE END EM */
 
-void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
-
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -59,24 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define MOTOR_RETRACT_Pin GPIO_PIN_3
-#define MOTOR_RETRACT_GPIO_Port GPIOA
-#define MOTOR_DEPLOY_Pin GPIO_PIN_4
-#define MOTOR_DEPLOY_GPIO_Port GPIOA
 #define CHARGE_PULSE_Pin GPIO_PIN_5
 #define CHARGE_PULSE_GPIO_Port GPIOA
 #define BATTERY_CUTOFF_Pin GPIO_PIN_10
 #define BATTERY_CUTOFF_GPIO_Port GPIOB
 #define CHARGE_SENSE_Pin GPIO_PIN_12
 #define CHARGE_SENSE_GPIO_Port GPIOB
-#define PROBE_RETRACTED_Pin GPIO_PIN_13
-#define PROBE_RETRACTED_GPIO_Port GPIOB
-#define PROBE_RETRACTED_EXTI_IRQn EXTI15_10_IRQn
-#define PROBE_EXTENDED_Pin GPIO_PIN_14
-#define PROBE_EXTENDED_GPIO_Port GPIOB
-#define PROBE_EXTENDED_EXTI_IRQn EXTI15_10_IRQn
-#define MOTOR_PWM_Pin GPIO_PIN_7
-#define MOTOR_PWM_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 #define MOTOR_PWM_TIM htim4
